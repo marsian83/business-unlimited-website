@@ -54,13 +54,15 @@
   </section>
   <section id="founders" class="py-12 bg-gradient-to-tl from-front to-foreground p-page">
     <h1 class="text-back text-5xl font-semibold font-rubik italic text-center">MEET OUR FOUNDERS</h1>
-    <div class="flex">
+
+    <div class="flex mobile:flex-col-reverse">
         <div class="founder-card ">
             <img src="/images/anamika.jpeg" alt="anamika">
             <h2 class="">Anamika</h2>
             <p class="">A transformational and charismatic global leader with international experience of more than 25 years, Anamika blends her cultural sensitivity to her tough output-oriented approach and gives every interaction and intervention her own spin. She has built and led high performing teams of as big as 200 people in multi-ethnic environments in India, Southeast Asia, the Pacific, Latin America, Europe, and Africa. Due to her varied knowledge and global exposure, she finds herself comfortable working in high-pressure situations while specializing in leadership competencies, strategic planning and execution, business process improvement among other skills. She has worked in various global, regional, and country leadership positions in multinational giants such as Conservation International, PwC, Ernst & Young, and the William J Clinton Foundation. 
 </p>
         </div>
+        <hr class="widescreen:hidden mt-8" />
         <div class="founder-card ">
             <img src="/images/rajeev.jpeg" alt="rajeev">
             <h2>Rajeev</h2>
@@ -77,10 +79,10 @@
   background: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148809724.jpg?w=1480&t=st=1676278736~exp=1676279336~hmac=56e57289e2439c00a1c6c0242728d75c110771f93b558b9f33f6216e354c99fa");
 }
 .founder-card{
-    @apply flex flex-col items-center px-8
+    @apply flex flex-col items-center widescreen:px-8
 }
 .founder-card img{
-    @apply w-[20vw] aspect-square rounded-full border-2 border-back my-8 object-cover
+    @apply w-[20vw] mobile:w-[40vw] aspect-square rounded-full border-2 border-back my-8 object-cover
 }
 .founder-card h2{
     @apply text-back pb-6 text-4xl italic font-rubik font-medium;

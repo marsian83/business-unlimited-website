@@ -7,7 +7,7 @@
     <NuxtLink to="/" class="italic text-primary font-rubik font-bold text-3xl"
       >BUSUNLIMIT</NuxtLink
     >
-    <button class="">
+    <button class="widescreen:hidden">
       <img
         src="/icons/hamburger.png"
         alt="hamburger mobile menu"
