@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .p-page {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .content-blank {
+    content: " ";
+  }
+}
+
+@layer components {
+  .btn-1{
+    @apply bg-primary text-back cursor-pointer rounded border-2 border-primary hover:bg-background hover:text-primary duration-300;
+  }
+  
+  .btn-2{
+    @apply bg-background text-primary rounded cursor-pointer border-2 border-opacity-30 border-mute  duration-300 hover:bg-secondary hover:border-opacity-100 hover:border-secondary hover:text-back
+  }
+}
