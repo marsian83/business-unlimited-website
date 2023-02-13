@@ -1,4 +1,5 @@
 <template>
+  <Preloader />
   <Navbar />
   <slot />
   <Footer />
