@@ -115,7 +115,7 @@ const programs = [
   <section
     class="p-page pt-24 pb-8 flex flex-col justify-center items-center bg-foreground text-back"
   >
-    <h1 class="text-5xl font-semibold font-rubik italic py-4">
+    <h1 class="text-5xl mobile:text-3xl font-semibold font-rubik italic py-4">
       What do we offer?
     </h1>
     <p class="text-back text-opacity-70">
@@ -126,16 +126,18 @@ const programs = [
     </p>
   </section>
   <section v-for="program of programs" :id="program.title" class="p-page py-10">
-    <h1 class="text-3xl font-semibold text-center">
+    <h1
+      class="text-3xl mobile:text-2xl mobile:font-bold font-semibold text-center"
+    >
       {{ program.title }}
     </h1>
-    <h2 class="text-mute italic text-center py-3 text-lg">
+    <h2 class="text-mute italic text-center py-3 text-lg mobile:text-base">
       {{ program.description }}
     </h2>
-    <div class="flex justify-evenly py-8">
+    <div class="program-cards flex justify-evenly mobile:flex-wrap mobile:gap-y-8 py-8">
       <ProgramCard
         v-for="pkg of program.packages"
-        style="width: 38%"
+        style="width: var(--card-width)"
         :title="pkg.title"
         :description="pkg.description"
         :isFor="pkg.isFor"
@@ -145,13 +147,13 @@ const programs = [
       />
     </div>
   </section>
-  <section id="book-meeting" class="bg-black flex flex-col items-center">
+  <section id="book-meeting" class="bg-black flex flex-col items-center p-page">
     <h1
-      class="text-5xl font-rubik font-semibold text-back italic text-center pt-12"
+      class="text-5xl font-rubik font-semibold text-back italic text-center pt-12 mobile:text-xl"
     >
       Book a "No Obligation" call with us
     </h1>
-    <p class="text-xl italic opacity-75 text-back text-center pb-6">
+    <p class="text-xl mobile:text-base mobile:py-8 italic opacity-75 text-back text-center pb-6">
       Business Unlimited believes that every entrepreneur/leader is the key to
       building a better world and has the required potential to succeed. We
       connect with you as a whole person, and work with you to overcome your
@@ -162,7 +164,7 @@ const programs = [
     <div
       class="calendly-inline-widget"
       data-url="https://calendly.com/businessunlimited/no-obligations-meeting-with-business-unlimited"
-      style="min-width: 80vw; height: 100vh;"
+      style="min-width: 100vw; height: 150vh"
     ></div>
     <!-- Calendly inline widget end -->
   </section>
@@ -174,4 +176,13 @@ const programs = [
   async
 ></script> -->
 
-<style scoped></style>
+<style scoped>
+.program-cards {
+  --card-width: 38%;
+}
+@media only screen and (max-width:780px) {
+  .program-cards {
+    --card-width: 99%;
+  }
+}
+</style>

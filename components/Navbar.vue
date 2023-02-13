@@ -4,8 +4,18 @@
     ref="navbar"
   >
     <!-- <img src="/logo.svg" alt="business unlimited logo" /> -->
-    <NuxtLink to="/" class="italic text-primary font-rubik font-bold text-3xl">BUSUNLIMIT</NuxtLink>
-    <div class="nav-items flex gap-x-12">
+    <NuxtLink to="/" class="italic text-primary font-rubik font-bold text-3xl"
+      >BUSUNLIMIT</NuxtLink
+    >
+    <button class="">
+      <img
+        src="/icons/hamburger.png"
+        alt="hamburger mobile menu"
+        class="w-10 aspect-square"
+        @click="showMobileMenu()"
+      />
+    </button>
+    <div :class="`nav-items mobile:fixed mobile:right-5 mobile:top-20 mobile:z-[91] mobile:hidden mobile:flex-col flex mobile:bg-[#ffffff55] mobile:rounded-md mobile:backdrop-blur-md mobile:p-5 mobile:gap-y-6 gap-x-12`">
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/services">Services</NuxtLink>
       <NuxtLink to="/about">About Us</NuxtLink>
@@ -16,10 +26,10 @@
 
 <style scoped>
 .nav-items a {
-  @apply text-mute font-semibold text-sm;
+  @apply text-mute font-semibold text-sm mobile:text-xl mobile:text-front;
 }
-.nav-fixed{
-    @apply fixed;
+.nav-fixed {
+  @apply fixed;
 }
 /* .nav-items .router-link-active{
   @apply brightness-0 cursor-default pointer-events-none;
@@ -28,4 +38,8 @@
 
 <script setup lang="ts">
 let navbar = ref<HTMLElement>();
+
+function showMobileMenu() {
+  navbar.value?.querySelector('.nav-items')?.classList.toggle('mobile:hidden')
+}
 </script>

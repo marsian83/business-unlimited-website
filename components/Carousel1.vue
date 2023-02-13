@@ -11,10 +11,10 @@ const { items } = defineProps<{
 </script>
 
 <template>
-  <div class="flex flex-wrap py-10 justify-evenly gap-y-14 cursor-default">
+  <div class="flex flex-wrap py-10 justify-evenly gap-y-14 mobile:gap-y-6 cursor-default">
     <div
       v-for="item of items"
-      class="w-[20vw] flex flex-col justify-between items-center p-4 gap-y-6 rounded-3xl border border-mute border-opacity-40 shadow-lg"
+      class="w-[20vw] mobile:w-full flex flex-col justify-between items-center p-4 gap-y-6 rounded-3xl border border-mute border-opacity-40 shadow-lg"
       v-bind:key="items.indexOf(item)"
     >
       <div class="flex items-center justify-center h-full">
