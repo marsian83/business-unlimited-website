@@ -9,6 +9,10 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
+    screens: {
+      mobile: { max: "780px" },
+      widescreen: { min: "780px" },
+    },
     extend: {
       colors: {
         primary: "#ff0222",
@@ -20,8 +24,8 @@ module.exports = {
         mute: "#68778d",
       },
       fontFamily: {
-        rubik: "'Rubik', 'Open Sans', sans-serif"
-      }
+        rubik: "'Rubik', 'Open Sans', sans-serif",
+      },
     },
   },
   plugins: [],
