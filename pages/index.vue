@@ -100,7 +100,7 @@ const businessCollaborations = [
 <template>
   <section
     id="hero"
-    class="widescreen:h-screen flex flex-col justify-center items-center gap-y-10 p-page mobile:py-32"
+    class="h-screen flex flex-col justify-center items-center gap-y-10 p-page mobile:py-32"
   >
     <h1 class="text-5xl font-semibold italic1 text-center font-rubik mobile:text-2xl">
       Innovative ways to enable <br />
