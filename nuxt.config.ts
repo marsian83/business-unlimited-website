@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   css: ["@/assets/css/index.css"],
   app: {
     head: {
+      title:"Business Unlimited",
       link: [
         { rel: "icon", type: "image/ico", href: "/favicon.ico" }, //favicon
         {

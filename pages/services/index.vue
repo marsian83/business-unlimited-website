@@ -9,6 +9,8 @@ useHead({
   ],
 });
 
+let calendlyWidget = ref(null);
+
 const programs = [
   {
     title: "Business Growth Program",
@@ -38,8 +40,8 @@ const programs = [
       {
         title: "Business Growth",
         description:
-          "We have personalized business coaching / mentoring/ consulting / advising on specific business challenges or gaps in required skill set converting groups into focused teams.",
-        isFor: "Business Owners/Entrepreneurs/Corporates/Startups",
+          "We have personalized business coaching / mentoring/ consulting / advising on specific business challenges or gaps in required skill set converting groups into focused teams. We learn from each other.",
+        isFor: "Business Owners/Corporates/Startups",
         content: {
           heading: "Elevate your existing business, get expert guidance on- ",
           items: [
@@ -87,13 +89,11 @@ const programs = [
         title: "Self Growth",
         description:
           "We strive to connect with you as a 'Whole Person,' to  work with you to overcome your hurdles, and unlock that potential so your life becomes *truly unlimited*",
-        isFor:
-          "Self aware Individuals who want to be a better version of themselves.",
+        isFor: "Self aware Individuals looking to improve.",
         content: {
           heading: "Some of the specifically curated areas could be -",
           items: [
             "growth-centered approach to life",
-            "behavioral blocks and limiting mindsets",
             "becoming self-dependent",
             "self compassion",
             "purpose and meaning",
@@ -109,13 +109,29 @@ const programs = [
     ],
   },
 ];
+
+onMounted(() => {
+//   window.onload = function () {
+//     let myiFrame = calendlyWidget.value.querySelector("iframe");
+//     myiFrame.crossOrigin=""
+//     console.log(myiFrame.contentWindow.document)
+//     let doc = myiFrame.contentDocument;
+//     doc.body.innerHTML += `<style>
+// .VJL48qbQzWENTFAh1Knk,
+// .e9TS9yoMqqIN2PqBo1QG,
+// ._i6SG2jlTfccH2ZZblil {
+//   display: none;
+// }
+//       </style>`;
+//   };
+});
 </script>
 
 <template>
   <section
     class="p-page pt-24 pb-8 flex flex-col justify-center items-center bg-foreground text-back"
   >
-    <h1 class="text-5xl mobile:text-3xl font-semibold font-rubik italic py-4">
+    <h1 class="text-5xl mobile:text-3xl font-semibold font-rubik italic1 py-4">
       What do we offer?
     </h1>
     <p class="text-back text-opacity-70">
@@ -131,10 +147,12 @@ const programs = [
     >
       {{ program.title }}
     </h1>
-    <h2 class="text-mute italic text-center py-3 text-lg mobile:text-base">
+    <h2 class="text-mute italic1 text-center py-3 text-lg mobile:text-base">
       {{ program.description }}
     </h2>
-    <div class="program-cards flex justify-evenly mobile:flex-wrap mobile:gap-y-8 py-8">
+    <div
+      class="program-cards flex justify-evenly mobile:flex-wrap mobile:gap-y-8 py-8"
+    >
       <ProgramCard
         v-for="pkg of program.packages"
         style="width: var(--card-width)"
@@ -149,11 +167,13 @@ const programs = [
   </section>
   <section id="book-meeting" class="bg-black flex flex-col items-center p-page">
     <h1
-      class="text-5xl font-rubik font-semibold text-back italic text-center pt-12 mobile:text-xl"
+      class="text-5xl font-rubik font-semibold text-back italic1 text-center pt-12 mobile:text-xl"
     >
       Book a "No Obligation" call with us
     </h1>
-    <p class="text-xl mobile:text-base mobile:py-8 italic opacity-75 text-back text-center pb-6">
+    <p
+      class="text-xl mobile:text-base mobile:py-8 italic1 opacity-75 text-back text-center pb-6"
+    >
       Business Unlimited believes that every entrepreneur/leader is the key to
       building a better world and has the required potential to succeed. We
       connect with you as a whole person, and work with you to overcome your
@@ -162,9 +182,9 @@ const programs = [
     </p>
     <!-- Calendly inline widget begin -->
     <div
-      class="calendly-inline-widget"
+      class="calendly-inline-widget min-w-[99vw] h-[150vh]"
+      ref="calendlyWidget"
       data-url="https://calendly.com/businessunlimited/no-obligations-meeting-with-business-unlimited"
-      style="min-width: 100vw; height: 150vh"
     ></div>
     <!-- Calendly inline widget end -->
   </section>
@@ -180,9 +200,16 @@ const programs = [
 .program-cards {
   --card-width: 38%;
 }
-@media only screen and (max-width:780px) {
+@media only screen and (max-width: 780px) {
   .program-cards {
     --card-width: 99%;
   }
+}
+
+.VJL48qbQzWENTFAh1Knk,
+.e9TS9yoMqqIN2PqBo1QG,
+._i6SG2jlTfccH2ZZblil {
+  @apply hidden before:hidden after:hidden;
+  background-color: red;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <section
     id="hero"
-    class="h-screen bg-cover bg-bottom p-page flex flex-col justify-center items-center"
+    class="h-screen1 py-24 bg-cover bg-bottom p-page flex flex-col justify-center items-center"
   >
-    <h1 class="text-5xl py-4 font-semibold italic font-rubik">The Premise</h1>
+    <h1 class="text-5xl py-4 font-semibold italic1 font-rubik">The Premise</h1>
     <p class="text-mute">
       We believe many entrepreneurs and business leaders today are tackling
       their problems alone. They don't have the access to tap professional help
@@ -19,7 +19,7 @@
   <section
     class="flex justify-center items-center flex-col p-page py-24 bg-gradient-to-r from-front to-foreground text-back"
   >
-    <h1 class="text-5xl pb-8 font-semibold italic font-rubik">
+    <h1 class="text-5xl pb-8 font-semibold italic1 font-rubik">
       We are your growth advisors
     </h1>
     <p class="text-transparent bg-gradient-to-r from-mute to-back bg-clip-text">
@@ -32,14 +32,14 @@
       your business are truly unlimited.
     </p>
     <p
-      class="text-white text-center italic pt-8 opacity-80 text-lg font-thin tracking-wider"
+      class="text-white text-center italic1 pt-8 opacity-80 text-lg font-thin tracking-wider"
     >
       > We steer leaders, organizational teams and entrepreneurs towards
       transformative results.
     </p>
   </section>
   <section class="p-page py-24">
-    <h1 class="text-center font-rubik text-5xl font-bold italic">Our Ethos</h1>
+    <h1 class="text-center font-rubik text-5xl font-bold italic1">Our Ethos</h1>
     <p class="text-center flex flex-col py-6 text-mute">
       ONE SIZE DOESN'T FIT ALL !! <hr class="opacity-0" />
       We develop tailored solutions after understanding your specific challenges
@@ -53,7 +53,7 @@
     </p>
   </section>
   <section id="founders" class="py-12 bg-gradient-to-tl from-front to-foreground p-page">
-    <h1 class="text-back text-5xl font-semibold font-rubik italic text-center">MEET OUR FOUNDERS</h1>
+    <h1 class="text-back text-5xl font-semibold font-rubik italic1 text-center">MEET OUR FOUNDERS</h1>
 
     <div class="flex mobile:flex-col-reverse">
         <div class="founder-card ">
@@ -85,7 +85,7 @@
     @apply w-[20vw] mobile:w-[40vw] aspect-square rounded-full border-2 border-back my-8 object-cover
 }
 .founder-card h2{
-    @apply text-back pb-6 text-4xl italic font-rubik font-medium;
+    @apply text-back pb-6 text-4xl italic1 font-rubik font-medium;
 }
 .founder-card p{
     @apply text-back font-thin text-justify tracking-tight

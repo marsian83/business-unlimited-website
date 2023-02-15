@@ -21,4 +21,8 @@
   .btn-2{
     @apply bg-background text-primary rounded cursor-pointer border-2 border-opacity-30 border-mute  duration-300 hover:bg-secondary hover:border-opacity-100 hover:border-secondary hover:text-back
   }
+
+  .italic1{
+    content-visibility: inherit;
+  }
 }

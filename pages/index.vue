@@ -102,16 +102,16 @@ const businessCollaborations = [
     id="hero"
     class="widescreen:h-screen flex flex-col justify-center items-center gap-y-10 p-page mobile:py-32"
   >
-    <h1 class="text-5xl font-semibold italic text-center font-rubik mobile:text-2xl">
+    <h1 class="text-5xl font-semibold italic1 text-center font-rubik mobile:text-2xl">
       Innovative ways to enable <br />
       your business and self-growth.
     </h1>
-    <h2 class="text-2xl italic text-center mobile:text-sm mobile:text-left">
+    <h2 class="text-2xl italic1 text-center mobile:text-sm mobile:text-left">
       Struggling to grow your business or sustain your growth?
       <br />
       Want to thrive with positivity, optimism and energy?
     </h2>
-    <h3 class="text-4xl font-semibold italic text-primary font-rubik">
+    <h3 class="text-4xl font-semibold italic1 text-primary font-rubik">
       We can help!
     </h3>
     <div class="flex gap-x-8">
@@ -143,10 +143,10 @@ const businessCollaborations = [
     id="meeting"
     class="p-page py-10 bg-front flex flex-col items-center"
   >
-    <h1 class="text-5xl mobile:text-3xl font-rubik font-semibold text-back italic text-center">
+    <h1 class="text-5xl mobile:text-3xl font-rubik font-semibold text-back italic1 text-center">
       Curious? Know more
     </h1>
-    <p class="font-rubik text-2xl mobile:text-lg opacity-75 text-back text-center italic py-6">
+    <p class="font-rubik text-2xl mobile:text-lg opacity-75 text-back text-center italic1 py-6">
       Book a "No Obligation" call with us
     </p>
     <NuxtLink
@@ -154,7 +154,7 @@ const businessCollaborations = [
       class="btn-1 px-6 py-2 text-3xl my-8 hover:border-front hover:text-front"
       >Book now</NuxtLink
     >
-    <p class="text-xl italic opacity-75 text-back text-center py-6">
+    <p class="text-xl italic1 opacity-75 text-back text-center py-6">
       Business Unlimited believes that every entrepreneur/leader is the key to
       building a better world and has the required potential to succeed. We
       connect with you as a whole person, and work with you to overcome your
@@ -166,8 +166,9 @@ const businessCollaborations = [
 
 <style scoped>
 section#hero {
-  @apply bg-bottom bg-cover;
-  background-image: url("/images/hero-illustration.png");
+  @apply bg-top bg-cover;
+  /* background-image: url("/images/hero-illustration.png"); */
+  background-image: url("https://img.freepik.com/vector-premium/fondo-geometrico-abstracto-luz-verde_153082-400.jpg?w=2000")
 }
 
 .heading {
