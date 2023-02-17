@@ -167,8 +167,7 @@ const businessCollaborations = [
 <style scoped>
 section#hero {
   @apply bg-top bg-cover;
-  /* background-image: url("/images/hero-illustration.png"); */
-  background-image: url("https://img.freepik.com/vector-premium/fondo-geometrico-abstracto-luz-verde_153082-400.jpg?w=2000")
+  background-image: url("/images/hero-bg.webp")
 }
 
 .heading {
