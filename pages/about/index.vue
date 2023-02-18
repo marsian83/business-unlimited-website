@@ -1,5 +1,7 @@
 <template>
-  <main class="snap-y snap-mandatory h-screen overflow-scroll overflow-x-hidden">
+  <main
+    class="snap-y snap-mandatory h-screen overflow-scroll overflow-x-hidden"
+  >
     <section
       id="hero"
       class="h-screen snap-start py-24 bg-cover bg-bottom p-page flex flex-col justify-center items-center"
@@ -54,15 +56,14 @@
       </p>
       <hr class="opacity-0 text-center" />
       <p class="text-justify">
-
-        We develop tailored solutions after understanding your specific challenges
-        and steer you towards faster growth and performance. We engage with you as
-        a whole person as we believe that the "personal" and "professional"
-        aspects of one's life are inseparable from each other and growing in both
-        avenues simultaneously is what makes a great leader from the rest. We are
-        engaged by businesses across all sectors - be it startups, legacy empires,
-        enterprises, or corporations for a strategic bend into their growth
-        trajectory.
+        We develop tailored solutions after understanding your specific
+        challenges and steer you towards faster growth and performance. We
+        engage with you as a whole person as we believe that the "personal" and
+        "professional" aspects of one's life are inseparable from each other and
+        growing in both avenues simultaneously is what makes a great leader from
+        the rest. We are engaged by businesses across all sectors - be it
+        startups, legacy empires, enterprises, or corporations for a strategic
+        bend into their growth trajectory.
       </p>
     </section>
     <section

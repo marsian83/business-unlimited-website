@@ -102,7 +102,9 @@ const businessCollaborations = [
     id="hero"
     class="h-screen flex flex-col justify-center items-center gap-y-10 p-page mobile:py-32"
   >
-    <h1 class="text-5xl font-semibold italic1 text-center font-rubik mobile:text-2xl">
+    <h1
+      class="text-5xl font-semibold italic1 text-center font-rubik mobile:text-2xl"
+    >
       Innovative ways to enable <br />
       your business and self-growth.
     </h1>
@@ -143,14 +145,18 @@ const businessCollaborations = [
     id="meeting"
     class="p-page py-10 bg-front flex flex-col items-center"
   >
-    <h1 class="text-5xl mobile:text-3xl font-rubik font-semibold text-back italic1 text-center">
+    <h1
+      class="text-5xl mobile:text-3xl font-rubik font-semibold text-back italic1 text-center"
+    >
       Curious? Know more
     </h1>
-    <p class="font-rubik text-2xl mobile:text-lg opacity-75 text-back text-center italic1 py-6">
+    <p
+      class="font-rubik text-2xl mobile:text-lg opacity-75 text-back text-center italic1 py-6"
+    >
       Book a "No Obligation" call with us
     </p>
     <NuxtLink
-    to="/services#book-meeting"
+      to="/services#book-meeting"
       class="btn-1 px-6 py-2 text-3xl my-8 hover:border-front hover:text-front"
       >Book now</NuxtLink
     >
@@ -167,9 +173,8 @@ const businessCollaborations = [
 <style scoped>
 section#hero {
   @apply bg-top bg-cover;
-  background-image: url("/images/hero-bg.webp")
+  background-image: url("/images/hero-bg.webp");
 }
-
 .heading {
   @apply text-3xl font-semibold py-10;
 }
