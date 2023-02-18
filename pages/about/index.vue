@@ -136,7 +136,7 @@
   @apply flex flex-col widescreen:pl-8;
 }
 .founder-card img {
-  @apply w-[17vw] mobile:w-[40vw] aspect-square rounded-full border-2 border-back my-8 object-cover;
+  @apply w-[14vw] mobile:w-[40vw] aspect-square rounded-full border-2 border-back my-8 object-cover;
 }
 .founder-card h2 {
   @apply text-back pb-6 text-4xl italic1 font-rubik font-medium;
