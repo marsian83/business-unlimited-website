@@ -111,19 +111,19 @@ const programs = [
 ];
 
 onMounted(() => {
-//   window.onload = function () {
-//     let myiFrame = calendlyWidget.value.querySelector("iframe");
-//     myiFrame.crossOrigin=""
-//     console.log(myiFrame.contentWindow.document)
-//     let doc = myiFrame.contentDocument;
-//     doc.body.innerHTML += `<style>
-// .VJL48qbQzWENTFAh1Knk,
-// .e9TS9yoMqqIN2PqBo1QG,
-// ._i6SG2jlTfccH2ZZblil {
-//   display: none;
-// }
-//       </style>`;
-//   };
+  //   window.onload = function () {
+  //     let myiFrame = calendlyWidget.value.querySelector("iframe");
+  //     myiFrame.crossOrigin=""
+  //     console.log(myiFrame.contentWindow.document)
+  //     let doc = myiFrame.contentDocument;
+  //     doc.body.innerHTML += `<style>
+  // .VJL48qbQzWENTFAh1Knk,
+  // .e9TS9yoMqqIN2PqBo1QG,
+  // ._i6SG2jlTfccH2ZZblil {
+  //   display: none;
+  // }
+  //       </style>`;
+  //   };
 });
 </script>
 
@@ -167,9 +167,9 @@ onMounted(() => {
   </section>
   <section id="book-meeting" class="bg-black flex flex-col items-center p-page">
     <h1
-      class="text-5xl font-rubik font-semibold text-back italic1 text-center pt-12 mobile:text-xl"
+      class="text-4xl py-8 font-rubik font-semibold text-back italic1 text-center mt-12 mobile:text-xl"
     >
-      Book a "No Obligation" call with us
+      Connect with us today, without any obligations.
     </h1>
     <p
       class="text-xl mobile:text-base mobile:py-8 italic1 opacity-75 text-back text-center pb-6"

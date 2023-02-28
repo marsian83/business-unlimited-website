@@ -9,11 +9,11 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    screens: {
-      mobile: { max: "780px" },
-      widescreen: { min: "780px" },
-    },
     extend: {
+      screens: {
+        mobile: { max: "780px" },
+        widescreen: { min: "780px" },
+      },
       colors: {
         primary: "#228922",
         secondary: "#03cf64",
