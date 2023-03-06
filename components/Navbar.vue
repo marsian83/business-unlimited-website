@@ -1,11 +1,11 @@
 <template>
   <nav
-    class="fixed py-6 p-page flex items-center justify-between w-full bg-background z-[90]"
+    class="fixed py-3 p-page flex items-center justify-between w-full bg-background z-[90]"
     ref="navbar"
   >
     <!-- <img src="/logo.svg" alt="business unlimited logo" /> -->
     <NuxtLink to="/" class="italic1 text-primary font-rubik font-bold text-3xl"
-      >BUSUNLIMIT</NuxtLink
+      ><img src="/logo.png" alt="business unlimited logo" class="h-[2.6ch] aspect-auto"></NuxtLink
     >
     <button class="widescreen:hidden">
       <img

@@ -1,69 +1,86 @@
 <template>
   <section class="pt-24 p-page flex flex-col gap-y-4">
-    <h1 class="heading">
-      Coaching v/s Mentoring v/s Consulting v/s Training: What is the
-      difference?
-    </h1>
-    <p>
-      To make a ‘positive’ change in YOUR life, it always ‘helps’ to speak to
-      someone who is a ‘neutral and professional’ person, outside your inner
-      circle - family, friends and colleagues. Some of the services available
-      are : Coaching, Mentoring, Consulting and Training - which have been of
-      immense help to a lot of people and organizations towards better life to
-      achieving goals. They could be often confused and used interchangeably.
-      While these services ‘help’ you towards your objective, there could be an
-      overlap.
-    </p>
-    <hr />
-    <h1 class="heading">Coaching :</h1>
-    <p>
-      Per (ICF) International Coaching Federation, it is “partnering with
-      clients in a thought-provoking and creative process that inspires them to
-      maximize their personal and professional potential.” Coaching is forward
-      facing, is incredibly helpful in achieving desired outcomes, which is
-      often done by overcoming self limiting beliefs and habits.
-    </p>
-    <hr />
-    <h1 class="heading">Mentoring :</h1>
-    <p>
-      Mentoring is a relationship in which a more knowledgeable and experienced
-      individual (Mentor) provides advice and guidance to someone with less
-      experience (Mentee), handholds him/her in the decisions/actions, with the
-      purpose of helping the Mentee to develop and grow.
-    </p>
-    <hr />
-    <h1 class="heading">
-      Coaching v/s Mentoring : <br />Directive and non-directive
-    </h1>
-    <p>
-      Mentoring is directive while Coaching is non-directive. A Mentor does more
-      of the talking, whereas in Coaching it is likely that the Coach poses
-      questions and gives the space to the other person, to reflect and do the
-      talking.
-    </p>
-    <hr />
-    <h1 class="heading">Short Term and Long Term</h1>
-    <p>
-      Mentoring is often long-term with some relationships lasting for years and
-      few examples could be artists, actors and sportsmen to help them at every
-      stage of their career. Coaching is short-term and goal-oriented, and often
-      when the goals are fulfilled, it may come to a conclusion.
-    </p>
-    <hr />
-    <h1 class="heading">Qualifications</h1>
-    <p>
-      Mentoring is sought based on the Mentor’s skills or experience in the
-      desired field. Whereas Coaches need not be the subject matter experts.
-      They need to acquire an expertise through training and credentialing
-      processes with International recognized Organisations.
-    </p>
-    <hr />
-    <h1 class="heading">Consulting</h1>
-    <p>
-      Consulting is a process of providing expertise to help an organization or
-      a business to achieve specific objectives. A Consultant is a subject
-      matter expert in a specific area of the Client’s industry or profession.
-    </p>
+    <div class="flex">
+      <div class="flex flex-col gap-y-4">
+        <h1 class="heading">
+          Coaching v/s Mentoring v/s Consulting v/s Training: What is the
+          difference?
+        </h1>
+        <p>
+          To make a ‘positive’ change in YOUR life, it always ‘helps’ to speak
+          to someone who is a ‘neutral and professional’ person, outside your
+          inner circle - family, friends and colleagues. Some of the services
+          available are : Coaching, Mentoring, Consulting and Training - which
+          have been of immense help to a lot of people and organizations towards
+          better life to achieving goals. They could be often confused and used
+          interchangeably. While these services ‘help’ you towards your
+          objective, there could be an overlap.
+        </p>
+        <hr />
+        <h1 class="heading">Coaching :</h1>
+        <p>
+          Per (ICF) International Coaching Federation, it is “partnering with
+          clients in a thought-provoking and creative process that inspires them
+          to maximize their personal and professional potential.” Coaching is
+          forward facing, is incredibly helpful in achieving desired outcomes,
+          which is often done by overcoming self limiting beliefs and habits.
+        </p>
+        <hr />
+        <h1 class="heading">Mentoring :</h1>
+        <p>
+          Mentoring is a relationship in which a more knowledgeable and
+          experienced individual (Mentor) provides advice and guidance to
+          someone with less experience (Mentee), handholds him/her in the
+          decisions/actions, with the purpose of helping the Mentee to develop
+          and grow.
+        </p>
+      </div>
+      <img src="/images/quote-1.png" alt="quote" class="p-3 mobile:hidden" />
+    </div>
+    <div class="flex">
+      <img
+        src="https://img.freepik.com/premium-vector/work-hard-dream-big-quote-illustration_136321-1312.jpg?w=2000"
+        alt="quote"
+        class="w-1/3 pr-3 h-full mobile:hidden object-cover"
+      />
+      <div class="flex flex-col gap-y-4">
+        <hr />
+        <h1 class="heading">
+          Coaching v/s Mentoring : <br />Directive and non-directive
+        </h1>
+        <p>
+          Mentoring is directive while Coaching is non-directive. A Mentor does
+          more of the talking, whereas in Coaching it is likely that the Coach
+          poses questions and gives the space to the other person, to reflect
+          and do the talking.
+        </p>
+        <hr />
+        <h1 class="heading">Short Term and Long Term</h1>
+        <p>
+          Mentoring is often long-term with some relationships lasting for years
+          and few examples could be artists, actors and sportsmen to help them
+          at every stage of their career. Coaching is short-term and
+          goal-oriented, and often when the goals are fulfilled, it may come to
+          a conclusion.
+        </p>
+        <hr />
+        <h1 class="heading">Qualifications</h1>
+        <p>
+          Mentoring is sought based on the Mentor’s skills or experience in the
+          desired field. Whereas Coaches need not be the subject matter experts.
+          They need to acquire an expertise through training and credentialing
+          processes with International recognized Organisations.
+        </p>
+        <hr />
+        <h1 class="heading">Consulting</h1>
+        <p>
+          Consulting is a process of providing expertise to help an organization
+          or a business to achieve specific objectives. A Consultant is a
+          subject matter expert in a specific area of the Client’s industry or
+          profession.
+        </p>
+      </div>
+    </div>
     <hr />
     <h1 class="heading">Coaching v/s Consulting <br />Solving the problem</h1>
     <p>

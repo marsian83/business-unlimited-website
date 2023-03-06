@@ -255,7 +255,7 @@ const businessCollaborations = [
 <style scoped>
 section#hero {
   @apply bg-top bg-cover;
-  background-image: url("/images/hero-bg.webp");
+  background-image: url("/images/hero-bg.png");
 }
 .heading {
   @apply text-3xl font-semibold py-10;

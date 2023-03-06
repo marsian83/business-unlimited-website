@@ -15,10 +15,10 @@ module.exports = {
         widescreen: { min: "780px" },
       },
       colors: {
-        primary: "#228922",
-        secondary: "#03cf64",
+        primary: "#061d6d",
+        secondary: "#999750",
         background: "#ffffff",
-        foreground: "#202327",
+        foreground: "#191a0f",
         front: "#000000",
         back: "#ffffff",
         mute: "#68778d",
