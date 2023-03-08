@@ -1,6 +1,6 @@
 <template>
   <section class="pt-24 p-page flex flex-col gap-y-4">
-    <div class="flex">
+    <div class="flex relative overflow-hidden">
       <div class="flex flex-col gap-y-4">
         <h1 class="heading">
           Coaching v/s Mentoring v/s Consulting v/s Training: What is the
@@ -35,15 +35,15 @@
           and grow.
         </p>
       </div>
-      <img src="/images/quote-1.png" alt="quote" class="p-3 mobile:hidden" />
+      <div class="h-full aspect-square">
+        <InstagramPost />
+      </div>
     </div>
-    <div class="flex">
-      <img
-        src="https://img.freepik.com/premium-vector/work-hard-dream-big-quote-illustration_136321-1312.jpg?w=2000"
-        alt="quote"
-        class="w-1/3 pr-3 h-full mobile:hidden object-cover"
-      />
-      <div class="flex flex-col gap-y-4">
+    <div class="flex overflow-hidden">
+      <div class="h-full">
+        <InstagramPost />
+      </div>
+      <div class="flex flex-col gap-y-4 pl-3">
         <hr />
         <h1 class="heading">
           Coaching v/s Mentoring : <br />Directive and non-directive
@@ -72,6 +72,10 @@
           processes with International recognized Organisations.
         </p>
         <hr />
+      </div>
+    </div>
+    <div class="flex">
+      <div class="flex flex-col gap-y-4">
         <h1 class="heading">Consulting</h1>
         <p>
           Consulting is a process of providing expertise to help an organization
@@ -79,58 +83,71 @@
           subject matter expert in a specific area of the Client’s industry or
           profession.
         </p>
+        <hr />
+        <h1 class="heading">
+          Coaching v/s Consulting <br />Solving the problem
+        </h1>
+        <p>
+          A Coach helps the Client to develop abilities to solve his/her
+          problems eventually. However, a Consultant participates in solving the
+          problem offering plausible solutions.
+        </p>
+        <hr />
+        <h1 class="heading">Focus</h1>
+        <p>
+          Coaching focuses on the Client as a ‘whole’ person so that he can
+          apply the leanings in his professional and personal life. Consultant
+          looks at a specific problem and his efforts are more data-driven so
+          the results can be quantified.
+        </p>
+        <hr />
+        <h1 class="heading">Training:</h1>
+        <p>
+          Training refers to the teaching and learning activities carried on for
+          the primary purpose of helping members of an organization acquire and
+          apply the knowledge, skills, abilities, and attitudes needed by a
+          particular job / organization.
+        </p>
+      </div>
+      <div class="h-full">
+        <InstagramPost />
       </div>
     </div>
-    <hr />
-    <h1 class="heading">Coaching v/s Consulting <br />Solving the problem</h1>
-    <p>
-      A Coach helps the Client to develop abilities to solve his/her problems
-      eventually. However, a Consultant participates in solving the problem
-      offering plausible solutions.
-    </p>
-    <hr />
-    <h1 class="heading">Focus</h1>
-    <p>
-      Coaching focuses on the Client as a ‘whole’ person so that he can apply
-      the leanings in his professional and personal life. Consultant looks at a
-      specific problem and his efforts are more data-driven so the results can
-      be quantified.
-    </p>
-    <hr />
-    <h1 class="heading">Training:</h1>
-    <p>
-      Training refers to the teaching and learning activities carried on for the
-      primary purpose of helping members of an organization acquire and apply
-      the knowledge, skills, abilities, and attitudes needed by a particular job
-      / organization.
-    </p>
-    <hr />
-    <h1 class="heading">Coaching vs Training <br />End result</h1>
-    <p>
-      Training typically enhances a skill set or knowledge of the person who is
-      being trained. Coaching makes a person an improved version of their own
-      self
-    </p>
-    <hr />
-    <h1 class="heading">Goals and accountability</h1>
-    <p>
-      Training goals and methodology is typically decided by people other than
-      the person being trained. Coaching goals and outcome ownership is taken by
-      the person who is being coached
-    </p>
-    <hr />
-    <h1 class="heading">Empowering</h1>
-    <p>
-      Training empowers with additional knowledge and skill set. Coaching
-      empowers with awareness and improved belief, an innate ability all of us
-      have. Despite the above differences, all the above interventions have been
-      evolving and are sought after by individuals, professionals, c-suite
-      executives, businesses (of any size) and organizations as they involve
-      educating, developing, enabling growth and guiding. In many parts of the
-      world ‘Coaching’ is taken as ‘best practice’ to bring ‘self’ - awareness,
-      care and empowerment.
-    </p>
-    <hr />
+
+    <div class="flex">
+      <div class="h-full">
+        <InstagramPost />
+      </div>
+      <div class="flex flex-col gap-y-4 pl-3">
+        <hr />
+        <h1 class="heading">Coaching vs Training <br />End result</h1>
+        <p>
+          Training typically enhances a skill set or knowledge of the person who
+          is being trained. Coaching makes a person an improved version of their
+          own self
+        </p>
+        <hr />
+        <h1 class="heading">Goals and accountability</h1>
+        <p>
+          Training goals and methodology is typically decided by people other
+          than the person being trained. Coaching goals and outcome ownership is
+          taken by the person who is being coached
+        </p>
+        <hr />
+        <h1 class="heading">Empowering</h1>
+        <p>
+          Training empowers with additional knowledge and skill set. Coaching
+          empowers with awareness and improved belief, an innate ability all of
+          us have. Despite the above differences, all the above interventions
+          have been evolving and are sought after by individuals, professionals,
+          c-suite executives, businesses (of any size) and organizations as they
+          involve educating, developing, enabling growth and guiding. In many
+          parts of the world ‘Coaching’ is taken as ‘best practice’ to bring
+          ‘self’ - awareness, care and empowerment.
+        </p>
+        <hr />
+      </div>
+    </div>
   </section>
 </template>
 

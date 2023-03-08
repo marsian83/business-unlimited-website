@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   css: ["@/assets/css/index.css"],
   app: {
     head: {
-      title:"Business Unlimited",
+      title: "Business Unlimited",
       link: [
         { rel: "icon", type: "image/ico", href: "/favicon.ico" }, //favicon
         {
@@ -29,6 +29,7 @@ export default defineNuxtConfig({
           rel: "stylesheet",
         },
       ],
+      script: [{ async: true, src: "www.instagram.com/embed.js" }],
     },
   },
 });
