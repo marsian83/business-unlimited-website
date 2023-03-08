@@ -35,7 +35,7 @@
           and grow.
         </p>
       </div>
-      <div class="h-full aspect-square">
+      <div class="h-full">
         <InstagramPost />
       </div>
     </div>
