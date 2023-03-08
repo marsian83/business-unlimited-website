@@ -35,7 +35,7 @@
           and grow.
         </p>
       </div>
-      <div class="h-full">
+      <div class="h-full mobile:my-6">
         <InstagramPost />
       </div>
     </div>
