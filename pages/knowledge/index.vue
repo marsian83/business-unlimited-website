@@ -1,6 +1,6 @@
 <template>
   <section class="pt-24 p-page flex flex-col gap-y-4">
-    <div class="flex relative overflow-hidden">
+    <div class="flex relative overflow-hidden mobile:flex-col-reverse">
       <div class="flex flex-col gap-y-4">
         <h1 class="heading">
           Coaching v/s Mentoring v/s Consulting v/s Training: What is the
@@ -39,7 +39,7 @@
         <InstagramPost />
       </div>
     </div>
-    <div class="flex overflow-hidden">
+    <div class="flex overflow-hidden mobile:flex-col">
       <div class="h-full">
         <InstagramPost />
       </div>
@@ -74,7 +74,7 @@
         <hr />
       </div>
     </div>
-    <div class="flex">
+    <div class="flex mobile:flex-col-reverse">
       <div class="flex flex-col gap-y-4">
         <h1 class="heading">Consulting</h1>
         <p>
@@ -114,7 +114,7 @@
       </div>
     </div>
 
-    <div class="flex">
+    <div class="flex mobile:flex-col">
       <div class="h-full">
         <InstagramPost />
       </div>
