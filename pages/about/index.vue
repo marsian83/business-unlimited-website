@@ -128,7 +128,7 @@
 
 <style scoped>
 #hero {
-  background: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148809724.jpg?w=1480&t=st=1676278736~exp=1676279336~hmac=56e57289e2439c00a1c6c0242728d75c110771f93b558b9f33f6216e354c99fa");
+  background: url("/images/abstract1.jpg");
 }
 .founder-card {
   @apply flex mobile:flex-col items-center widescreen:px-8;

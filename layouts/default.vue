@@ -4,3 +4,9 @@
   <slot />
   <Footer />
 </template>
+
+<style>
+body {
+  @apply bg-background;
+}
+</style>

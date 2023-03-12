@@ -151,7 +151,7 @@ const businessCollaborations = [
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/2 w-full">
           <div
-            class="h-full bg-gray-100 p-8 rounded flex flex-col justify-between"
+            class="h-full shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +186,7 @@ const businessCollaborations = [
         </div>
         <div class="p-4 md:w-1/2 w-full">
           <div
-            class="h-full bg-gray-100 p-8 rounded flex flex-col justify-between"
+            class="h-full bg-background shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
