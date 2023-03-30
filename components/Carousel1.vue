@@ -21,7 +21,7 @@ const { items } = defineProps<{
         <img :src="item.imageUrl" :alt="`${item.title} logo`" class="w-28" draggable="false" />
       </div>
       <h5 class="text-3xl font-mono">{{ item.title }}</h5>
-      <p class="opacity-80">{{ item.description }}</p>
+      <p class="opacity-80 text-center">{{ item.description }}</p>
     </div>
   </div>
 </template>

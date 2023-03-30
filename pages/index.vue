@@ -1,98 +1,65 @@
 <script setup>
-const businessPartnerships = [
-  {
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1280px-Adidas_Logo.svg.png",
-    title: "Adidas",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl:
-      "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
-    title: "HP",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl:
-      "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
-    title: "HP",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl:
-      "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
-    title: "HP",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-];
+// const businessPartnerships = [
+//   {
+//     imageUrl:
+//       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1280px-Adidas_Logo.svg.png",
+//     title: "Adidas",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl:
+//       "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
+//     title: "HP",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
+//     title: "Polygon",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl:
+//       "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
+//     title: "HP",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
+//     title: "Polygon",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
+//     title: "Polygon",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl:
+//       "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
+//     title: "HP",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+//   {
+//     imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
+//     title: "Polygon",
+//     description:
+//       "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+//   },
+// ];
 
 const businessCollaborations = [
   {
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1280px-Adidas_Logo.svg.png",
-    title: "Adidas",
+    imageUrl: "/collaborations/relymore.png",
+    title: "Relymore",
     description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl:
-      "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
-    title: "HP",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl:
-      "https://seeklogo.com/images/H/hewlett-packard-company-logo-F5676A4E16-seeklogo.com.png",
-    title: "HP",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
-  },
-  {
-    imageUrl: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-    title: "Polygon",
-    description:
-      "As a former partner of Adidas, Unlimited Business has a proven track record of success and is dedicated to providing top-notch services to its clients.",
+      "RelyMore Solutions brings brands to life with vibrant storytelling and technology. From strategy to activation, we collaborate with our partners to craft the content, moments, and messages that build modern brands. We help simplify and clarify who they are and what they stand for. We construct and deploy thoughtful, well-crafted solutions that inspire your customers to take action.",
   },
 ];
 </script>
@@ -124,17 +91,20 @@ const businessCollaborations = [
         >Knowledge</NuxtLink
       >
     </div>
+    <div class="absolute right-2 bottom-2 flex gap-x-8">
+      <NuxtLink to="/privacy" class="text-back">Privacy Policy</NuxtLink>
+    </div>
   </section>
-  <section
+  <!-- <section
     id="a"
     class="h-screen bg-gradient-to-b from-black to-foreground"
-  ></section>
-  <section id="partnerships" class="p-page py-8">
+  ></section> -->
+  <!-- <section id="partnerships" class="p-page py-8">
     <h1 class="heading text-center">
       Business <span class="text-primary">Partnerships</span>
     </h1>
     <Carousel1 :items="businessPartnerships" />
-  </section>
+  </section> -->
   <section id="collaborations" class="p-page py-8">
     <h1 class="heading text-center">
       Business <span class="text-primary">Collaborations</span>
@@ -164,10 +134,12 @@ const businessCollaborations = [
               ></path>
             </svg>
             <p class="leading-relaxed mb-6">
-              I recently had the pleasure of working with Business Unlimited, a
-              business growth and self-growth consultancy, and I cannot
-              recommend them highly enough. From the moment I contacted them, I
-              knew I was in good hands.
+              Rajeev, coached and mentored me through my difficult times,
+              specially when I was quite disappointed of not getting a well
+              deserved promotion or not being able to communicate with my MD
+              (reporting boss) on the expected deliverables. His clarity of
+              expression and deep listening of what is being said and 'not' said
+              were of immense value to dwell on my personal challenges as well
             </p>
             <a class="inline-flex items-center">
               <img
@@ -177,9 +149,9 @@ const businessCollaborations = [
               />
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900"
-                  >Kamlesh Narayan</span
+                  >Sanjay Poddar</span
                 >
-                <span class="text-gray-500 text-sm">ENTREPRENEUR</span>
+                <span class="text-gray-500 text-sm">HALDIRAM SNACKS</span>
               </span>
             </a>
           </div>
@@ -199,11 +171,14 @@ const businessCollaborations = [
               ></path>
             </svg>
             <p class="leading-relaxed mb-6">
-              The team at Business Unlimited is incredibly knowledgeable and
-              experienced, and they have a deep understanding of the challenges
-              facing businesses and individuals today. They took the time to
-              listen to my goals and concerns, and then provided tailored
-              guidance and support to help me achieve my objectives.
+              It is a privilege to be a mentee with Anamika. I have learnt great
+              things from her resourcefulness. I have since grown and do
+              contribute it partly to her kindness and perseverance as my
+              mentor. Her sharing of her own professional and personal
+              experiences inspired and influenced me which then led to critical
+              insights to work on my blind spots. My learnings to deal with
+              complex and ambiguous situations, difficult people has been
+              instrumental in my growth both as a professional and a person
             </p>
             <a class="inline-flex items-center">
               <img
@@ -213,9 +188,9 @@ const businessCollaborations = [
               />
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900"
-                  >Lata Kamu</span
+                  >Leona Chopkorir</span
                 >
-                <span class="text-gray-500 text-sm">DESIGNER</span>
+                <span class="text-gray-500 text-sm">DIRECTOR - ACI</span>
               </span>
             </a>
           </div>
@@ -235,7 +210,7 @@ const businessCollaborations = [
     <p
       class="font-rubik text-2xl mobile:text-lg opacity-75 text-back text-center italic1 py-6"
     >
-    Connect with us today, without any obligations.
+      Connect with us today, without any obligations.
     </p>
     <NuxtLink
       to="/services#book-meeting"
