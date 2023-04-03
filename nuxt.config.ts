@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     head: {
       title: "Business Unlimited",
       link: [
-        { rel: "icon", type: "image/ico", href: "/favicon.ico" }, //favicon
+        { rel: "icon", type: "image/ico", href: "/favicon.png" }, //favicon
         {
           rel: "preconnect",
           href: "https://fonts.googleapis.com",

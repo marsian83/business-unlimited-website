@@ -95,6 +95,7 @@ const businessCollaborations = [
       <NuxtLink to="/privacy" class="text-back">Privacy Policy</NuxtLink>
     </div>
   </section>
+  <img src="/images/vector.png" alt="">
   <!-- <section
     id="a"
     class="h-screen bg-gradient-to-b from-black to-foreground"
