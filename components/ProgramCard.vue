@@ -3,7 +3,7 @@ interface propTypes {
   title: string;
   description: string;
   isFor: string;
-  content: { heading: string; items: string[] };
+  content: { heading: string; items: { content: string; tooltip: string }[] };
   edge: string;
   type: string; //gold, platinum etc
 }
@@ -46,7 +46,14 @@ const props = defineProps<propTypes>();
             {{ content.heading }}
           </p>
           <ul class="text-mute list-disc ml-[1rem]">
-            <li v-for="item of content.items">{{ item }}</li>
+            <li v-for="item of content.items" class="relative group cursor-default duration-300 hover:text-black">
+              {{ item.content }}
+              <p
+                class="absolute bottom-0 translate-y-full bg-background shadow-lg rounded-lg p-2 hidden group-hover:flex z-[1] pointer-events-none border border-front text-front text-sm"
+              >
+                {{ item.tooltip }}
+              </p>
+            </li>
           </ul>
         </div>
       </div>
@@ -110,5 +117,4 @@ button {
 .bullet {
   @apply w-8 h-8 bg-gradient-to-br from-primary to-black mr-4 rounded-full opacity-80 p-0 m-0;
 }
-
 </style>

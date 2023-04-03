@@ -25,13 +25,41 @@ const programs = [
         content: {
           heading: "Get practical and doable solutions for - ",
           items: [
-            "market scenario analysis",
-            "pricing and margins",
-            "supply chain management",
-            "xpenditure and cost-cutting",
-            "business performance enhancement",
-            "working capital management",
-            "increased sales growth",
+            {
+              content: "market scenario analysis",
+              tooltip:
+                "An examination and evaluation of the current and potential market conditions, including factors such as competition, trends, and customer behavior.",
+            },
+            {
+              content: "pricing and margins",
+              tooltip:
+                "The process of determining the optimal price points and profit margins for a product or service, based on factors such as production costs, competition, and consumer demand.",
+            },
+            {
+              content: "supply chain management",
+              tooltip:
+                "The management of the flow of goods and services from the point of origin to the point of consumption, with a focus on optimizing efficiency and minimizing costs.",
+            },
+            {
+              content: "expenditure and cost-cutting",
+              tooltip:
+                "The management of expenses and the implementation of strategies to reduce costs and increase profitability, without sacrificing quality or efficiency.",
+            },
+            {
+              content: "business performance enhancement",
+              tooltip:
+                "The process of identifying and implementing strategies to improve overall business performance, with a focus on increasing revenue, profitability, and customer satisfaction.",
+            },
+            {
+              content: "working capital management",
+              tooltip:
+                "The management of a company's short-term assets and liabilities, with a focus on ensuring that there is enough cash flow to support daily operations and growth initiatives.",
+            },
+            {
+              content: "increased sales growth",
+              tooltip:
+                "The process of developing and implementing strategies to increase sales revenue, with a focus on expanding customer reach and improving customer satisfaction.",
+            },
           ],
         },
         edge: "We have partnered with The Alpha Group, an international organization with presence over 20 countries, and who have a track record of facilitating businesses and multiplying their growth successfully for over a decade.",
@@ -45,13 +73,41 @@ const programs = [
         content: {
           heading: "Elevate your existing business, get expert guidance on- ",
           items: [
-            "business restructuring",
-            "specific areas such as digitalization",
-            "software solutions",
-            "effective organizational structure",
-            "operations excellence",
-            "business transformation",
-            "team performance enhancement",
+            {
+              content: "business restructuring",
+              tooltip:
+                "The process of reorganizing a company's operations and structure, often with the goal of improving efficiency, reducing costs, or adapting to changing market conditions.",
+            },
+            {
+              content: "specific areas such as digitalization",
+              tooltip:
+                "The process of incorporating digital technologies and strategies into a company's operations, with the goal of improving efficiency, reaching new customers, and enhancing overall performance.",
+            },
+            {
+              content: "software solutions",
+              tooltip:
+                "Computer programs and applications designed to perform specific tasks or solve particular problems, such as managing data, improving productivity, or enhancing customer experience.",
+            },
+            {
+              content: "effective organizational structure",
+              tooltip:
+                "The arrangement of a company's resources and employees in a way that maximizes efficiency, productivity, and communication, often through the creation of clear roles and responsibilities, and effective reporting lines.",
+            },
+            {
+              content: "operations excellence",
+              tooltip:
+                "The process of achieving high levels of efficiency and quality in a company's operations, often through the use of lean management principles, continuous improvement initiatives, and effective performance metrics.",
+            },
+            {
+              content: "business transformation",
+              tooltip:
+                "A fundamental and far-reaching change in a company's operations, structure, or culture, often with the goal of achieving significant improvements in performance or adapting to changing market conditions.",
+            },
+            {
+              content: "team performance enhancement",
+              tooltip:
+                "The process of improving the performance and productivity of a company's employees, often through the implementation of training programs, coaching, and the creation of a positive and supportive work culture.",
+            },
           ],
         },
         edge: "We bring our expertise drawn from over 60 years of combined multinational industry experience spanning sectors as diverse as technology, manufacturing, FMCG, trading, and consulting etc. We have worked both for corporate and family-run businesses complemented by our deep understanding of working across many cultures.",
@@ -72,14 +128,46 @@ const programs = [
         content: {
           heading: "The program addresses gaps such as-",
           items: [
-            "goal setting and attainment",
-            "cognitive thinking",
-            "motivating / guiding others",
-            "inclusivity and diversity",
-            "cultural empathy development",
-            "strategic planning",
-            "work-life balance",
-            "stress management",
+            {
+              content: "goal setting and attainment",
+              tooltip:
+                "The process of identifying specific objectives or targets for a person or organization, and developing strategies and plans to achieve them.",
+            },
+            {
+              content: "cognitive thinking",
+              tooltip:
+                "The mental processes and skills used to perceive, understand, and reason about information, including skills such as perception, memory, attention, and problem-solving.",
+            },
+            {
+              content: "motivating / guiding others",
+              tooltip:
+                "The process of inspiring and directing others towards specific goals or objectives, often through the use of effective communication, leadership, and coaching skills.",
+            },
+            {
+              content: "inclusivity and diversity",
+              tooltip:
+                "The practice of creating a workplace culture that is welcoming and supportive of people of all backgrounds, including people from diverse racial, ethnic, and cultural backgrounds, and people of all genders, ages, and abilities.",
+            },
+            {
+              content: "cultural empathy development",
+              tooltip:
+                "The process of developing a deep understanding and appreciation of different cultures, and the ability to interact effectively with people from diverse backgrounds.",
+            },
+            {
+              content: "strategic planning",
+              tooltip:
+                "The process of developing a long-term plan for achieving specific goals or objectives, often through the analysis of internal and external factors, and the development of strategies and tactics to address them.",
+            },
+            {
+              content: "work-life balance",
+              tooltip:
+                "The practice of balancing the demands of work with the demands of personal and family life, often through the use of strategies such as flexible work hours, time management, and stress reduction techniques.",
+            },
+            {
+              content: "stress management",
+              tooltip:
+                "The practice of managing stress and anxiety in order to improve overall health and wellbeing, often through the use of techniques such as meditation, exercise, and time management.",
+            },
           ],
         },
         edge: "We are a team of credentialed coaches (International Coaching Federation (ICF) and European Mentor and Coaching Council (EMCC)) and certified practitioner of neuro-linguistic programming (NLP)",
@@ -93,14 +181,46 @@ const programs = [
         content: {
           heading: "Some of the specifically curated areas could be -",
           items: [
-            "growth-centered approach to life",
-            "becoming self-dependent",
-            "self compassion",
-            "purpose and meaning",
-            "emotional regulation",
-            "judgment and biases",
-            "work-life balance",
-            "stress management",
+            {
+              content: "growth-centered approach to life",
+              tooltip:
+                "The practice of continuously striving for personal and professional growth, often through the development of new skills, experiences, and perspectives.",
+            },
+            {
+              content: "becoming self-dependent",
+              tooltip:
+                "The process of becoming self-sufficient and independent, often through the development of skills such as critical thinking, problem-solving, and decision-making.",
+            },
+            {
+              content: "self compassion",
+              tooltip:
+                "The practice of being kind, understanding, and forgiving towards oneself, often through the development of a positive self-image and a focus on personal growth and improvement.",
+            },
+            {
+              content: "purpose and meaning",
+              tooltip:
+                "The practice of identifying and pursuing personal and professional goals that align with one's values and beliefs, and provide a sense of purpose and fulfillment.",
+            },
+            {
+              content: "emotional regulation",
+              tooltip:
+                "The ability to recognize, manage, and express one's emotions in a healthy and constructive way, often through the use of techniques such as mindfulness, meditation, and cognitive-behavioral therapy.",
+            },
+            {
+              content: "judgment and biases",
+              tooltip:
+                "The process of identifying and overcoming personal biases and prejudices, and developing a more objective and open-minded approach to decision-making and problem-solving.",
+            },
+            {
+              content: "work-life balance",
+              tooltip:
+                "The practice of balancing the demands of work with the demands of personal and family life, often through the use of strategies such as flexible work hours, time management, and stress reduction techniques.",
+            },
+            {
+              content: "stress management",
+              tooltip:
+                "The practice of managing stress and anxiety in order to improve overall health and wellbeing, often through the use of techniques such as meditation, exercise, and time management.",
+            },
           ],
         },
         edge: "We are a team of credentialed coaches (International Coaching Federation (ICF) and European Mentor and Coaching Council (EMCC)) and certified practitioner of neuro-linguistic programming (NLP)",
