@@ -288,4 +288,5 @@
     >
   </p>
   <p><br /></p>
+  <div class="bg-foreground h-[5vh] text-center text-white flex justify-center items-center">Business-Unlimited </div>
 </template>
