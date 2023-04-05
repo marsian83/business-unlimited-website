@@ -2,7 +2,6 @@
   <Preloader />
   <Navbar />
   <slot />
-  <Footer />
 </template>
 
 <style>

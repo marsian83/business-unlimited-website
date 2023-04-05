@@ -1,6 +1,6 @@
 <template>
   <main
-    class="snap-y snap-mandatory h-screen overflow-scroll overflow-x-hidden"
+    class="widescreen:snap-y widescreen:snap-mandatory h-screen overflow-scroll overflow-x-hidden"
   >
     <section
       id="hero"

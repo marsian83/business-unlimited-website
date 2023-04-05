@@ -1,6 +1,6 @@
 <template>
     <div class="h-24" />
-  <p class="py-3 text-2xl font-semibold">Privacy Policy</p>
+  <p class="py-3 text-2xl font-semibold">PRIVACY POLICY</p>
   <p>
     Tatva Nirvana LLP, doing business as &ldquo;Business Unlimited&rdquo;
     (&ldquo;BU&rdquo; or &ldquo;us&ldquo;) realizes that privacy is an important
@@ -36,7 +36,7 @@
     Via the Site, BU may collect from you: (i) certain personally identifiable
     information, and (ii) technical and other information.
   </p>
-  <p class="py-3 text-2xl font-semibold">Personally Identifiable Information. &nbsp;</p>
+  <p class="py-3 text-2xl font-semibold">PERSONALLY IDENTIFIABLE INFORMATION. &nbsp;</p>
   <p>
     Contacting Us &nbsp;&ndash; The Site permits you to contact us via email or
     via various forms. &nbsp;Whenever you send an email or otherwise communicate
@@ -288,4 +288,5 @@
     >
   </p>
   <p><br /></p>
+  <Footer />
 </template>
