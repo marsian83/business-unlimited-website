@@ -68,14 +68,14 @@
     </section>
     <section
       id="founders"
-      class="widescreen:h-screen snap-start flex flex-col justify-center items-center pt-24 bg-gradient-to-tl from-front to-foreground p-page"
+      class="widescreen:h-screen snap-start flex flex-col gap-y-10 justify-center items-center pt-24 bg-gradient-to-tl from-front to-foreground p-page"
     >
       <h1
         class="text-back text-5xl font-semibold font-rubik italic1 text-center"
       >
         MEET OUR FOUNDERS
       </h1>
-      <div class="flex flex-col mobile:flex-col-reverse">
+      <div class="flex flex-col mobile:flex-col-reverse gap-y-10">
         <div class="founder-card">
           <img src="/images/anamika.jpeg" alt="anamika" />
           <div class="founder-card-content">
