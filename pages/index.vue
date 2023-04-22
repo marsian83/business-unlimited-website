@@ -143,12 +143,12 @@ const businessCollaborations = [
               were of immense value to dwell on my personal challenges as well
             </p>
             <a class="inline-flex items-center">
-              <img
+              <!-- <img
                 alt="testimonial"
                 src="https://www.mantruckandbus.com/fileadmin/_processed_/9/c/csm_FT_05-06_Header_Schoenherr_2-min_d50a71a2cd.jpg"
                 class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-              />
-              <span class="flex-grow flex flex-col pl-4">
+              /> -->
+              <span class="flex-grow flex flex-col">
                 <span class="title-font font-medium text-gray-900"
                   >Sanjay Poddar</span
                 >
@@ -182,12 +182,12 @@ const businessCollaborations = [
               instrumental in my growth both as a professional and a person
             </p>
             <a class="inline-flex items-center">
-              <img
+              <!-- <img
                 alt="testimonial"
                 src="http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg"
                 class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-              />
-              <span class="flex-grow flex flex-col pl-4">
+              /> -->
+              <span class="flex-grow flex flex-col">
                 <span class="title-font font-medium text-gray-900"
                   >Leona Chopkorir</span
                 >

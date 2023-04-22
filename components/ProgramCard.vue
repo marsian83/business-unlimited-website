@@ -46,7 +46,7 @@ const props = defineProps<propTypes>();
             {{ content.heading }}
           </p>
           <ul class="text-mute list-disc ml-[1rem]">
-            <li v-for="item of content.items" class="relative group cursor-default duration-300 hover:text-black">
+            <li v-for="item of content.items" class="relative underline group cursor-default duration-300 hover:text-black">
               {{ item.content }}
               <p
                 class="absolute bottom-0 translate-y-full bg-background shadow-lg rounded-lg p-2 hidden group-hover:flex z-[1] pointer-events-none border border-front text-front text-sm"

@@ -9,7 +9,7 @@
       <h1 class="text-5xl py-4 font-semibold italic1 font-rubik">
         The Premise
       </h1>
-      <p class="text-front text-center">
+      <p class="text-front text-center text-lg">
         We believe many entrepreneurs and business leaders today are tackling
         their problems alone. They don't have the access to tap professional
         help in terms of support, mentorship, guidance or coaching. Without this
@@ -28,7 +28,7 @@
         We are your growth advisors
       </h1>
       <p
-        class="text-transparent text-center bg-gradient-to-r from-back to-back bg-clip-text"
+        class="text-transparent text-center bg-gradient-to-r from-back to-back bg-clip-text text-lg"
       >
         Business Unlimited is the brainchild of a group of business leaders and
         certified executive coaches with passion for business and personal
@@ -55,7 +55,7 @@
         ONE SIZE DOESN'T FIT ALL !!
       </p>
       <hr class="opacity-0 text-center" />
-      <p class="text-justify">
+      <p class="text-center text-lg">
         We develop tailored solutions after understanding your specific
         challenges and steer you towards faster growth and performance. We
         engage with you as a whole person as we believe that the "personal" and
