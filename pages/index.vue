@@ -69,7 +69,10 @@ const businessCollaborations = [
     id="hero"
     class="h-[85vh] flex flex-col justify-center items-center relative gap-y-10 p-page mobile:py-32"
   >
-  <span class="material-icons absolute bottom-4 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary">&#xe313;</span>
+    <span
+      class="material-icons absolute bottom-4 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
+      >&#xe313;</span
+    >
     <h1
       class="text-5xl font-semibold italic1 text-center font-montserrat mobile:text-2xl"
     >
@@ -78,6 +81,7 @@ const businessCollaborations = [
     </h1>
     <h2 class="text-2xl italic1 text-center mobile:text-sm mobile:text-left">
       Struggling to grow your business or sustain your growth?
+
       <br />
       Want to thrive with positivity, optimism and energy?
     </h2>
@@ -96,9 +100,8 @@ const businessCollaborations = [
       <NuxtLink to="/privacy" class="text-back">Privacy Policy</NuxtLink>
     </div>
   </section>
-  <section class="bg-[#00203f] p-[10vw] py-24 mobile:px-8 mobile:py-2 mobile:my-5">
-
-    <img src="/images/vector.png" alt="">
+  <section class="bg-[#00203f] p-[10vw] py-24 mobile:px-8 mobile:py-5">
+    <img src="/images/vector.png" alt="" />
   </section>
   <!-- <section
     id="a"
