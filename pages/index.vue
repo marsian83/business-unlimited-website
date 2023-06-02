@@ -73,15 +73,18 @@ const businessCollaborations = [
       class="material-icons absolute bottom-4 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
       >&#xe313;</span
     >
+    <span
+      class="material-icons absolute bottom-8 mobile:bottom-6 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
+      >&#xe313;</span
+    >
     <h1
       class="text-5xl font-semibold italic1 text-center font-montserrat mobile:text-2xl"
     >
       Innovative ways to enable <br />
       your business and self-growth.
     </h1>
-    <h2 class="text-2xl italic1 text-center mobile:text-sm mobile:text-left">
+    <h2 class="text-2xl italic1 text-center mobile:text-sm">
       Struggling to grow your business or sustain your growth?
-
       <br />
       Want to thrive with positivity, optimism and energy?
     </h2>
