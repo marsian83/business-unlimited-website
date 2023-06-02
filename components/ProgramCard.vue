@@ -17,7 +17,7 @@ const props = defineProps<propTypes>();
   >
     <div class="">
       <div class="bg-front p-6">
-        <h1 class="text-2xl font-bold text-center text-back font-rubik italic1">
+        <h1 class="text-2xl font-bold text-center text-back font-montserrat italic1">
           {{ title }}
           <span
             class="bg-clip-text text-transparent capitalize"

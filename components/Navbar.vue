@@ -4,7 +4,7 @@
     ref="navbar"
   >
     <!-- <img src="/logo.svg" alt="business unlimited logo" /> -->
-    <NuxtLink to="/" class="italic1 text-primary font-rubik font-bold text-3xl"
+    <NuxtLink to="/" class="italic1 text-primary font-montserrat font-bold text-3xl"
       ><img src="/logo.png" alt="business unlimited logo" class="h-[2.6ch] aspect-auto"></NuxtLink
     >
     <button class="widescreen:hidden">

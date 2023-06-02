@@ -4,12 +4,12 @@
     class="p-page py-10 bg-front flex flex-col items-center"
   >
     <h1
-      class="text-5xl mobile:text-3xl font-rubik font-semibold text-back italic1 text-center"
+      class="text-5xl mobile:text-3xl font-montserrat font-semibold text-back italic1 text-center"
     >
       Curious? Want to know more?
     </h1>
     <p
-      class="font-rubik text-2xl mobile:text-lg opacity-75 text-back text-center italic1 py-6"
+      class="font-montserrat text-2xl mobile:text-lg opacity-75 text-back text-center italic1 py-6"
     >
       Connect with us today, without any obligations.
     </p>

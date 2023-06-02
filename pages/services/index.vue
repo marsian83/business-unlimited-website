@@ -240,7 +240,7 @@ onMounted(() => {
   <section
     class="p-page pt-24 pb-8 flex flex-col justify-center items-center bg-foreground text-back"
   >
-    <h1 class="text-5xl mobile:text-3xl font-semibold font-rubik italic1 py-4">
+    <h1 class="text-5xl mobile:text-3xl font-semibold font-montserrat italic1 py-4">
       What do we offer?
     </h1>
     <p class="text-back text-opacity-70">
@@ -276,7 +276,7 @@ onMounted(() => {
   </section>
   <section id="book-meeting" class="bg-black flex flex-col items-center p-page">
     <h1
-      class="text-4xl py-8 font-rubik font-semibold text-back italic1 text-center mt-12 mobile:text-xl"
+      class="text-4xl py-8 font-montserrat font-semibold text-back italic1 text-center mt-12 mobile:text-xl"
     >
       Connect with us today, without any obligations.
     </h1>

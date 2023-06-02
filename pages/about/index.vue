@@ -6,7 +6,7 @@
       id="hero"
       class="h-screen snap-start py-24 bg-cover bg-bottom p-page flex flex-col justify-center items-center"
     >
-      <h1 class="text-5xl py-4 font-semibold italic1 font-rubik">
+      <h1 class="text-5xl py-4 font-semibold italic1 font-montserrat">
         The Premise
       </h1>
       <p class="text-front text-center text-lg">
@@ -24,7 +24,7 @@
     <section
       class="flex h-screen snap-start justify-center items-center flex-col p-page py-24 bg-gradient-to-r from-front to-foreground text-back"
     >
-      <h1 class="text-5xl pb-8 font-semibold italic1 font-rubik text-center">
+      <h1 class="text-5xl pb-8 font-semibold italic1 font-montserrat text-center">
         We are your growth advisors
       </h1>
       <p
@@ -48,7 +48,7 @@
     <section
       class="h-screen snap-start flex justify-center items-center flex-col p-page py-24"
     >
-      <h1 class="text-center font-rubik text-5xl font-bold italic1">
+      <h1 class="text-center font-montserrat text-5xl font-bold italic1">
         Our Ethos
       </h1>
       <p class="text-center flex flex-col py-6 text-mute">
@@ -71,7 +71,7 @@
       class="widescreen:h-screen snap-start flex flex-col gap-y-10 justify-center items-center pt-24 bg-gradient-to-tl from-front to-foreground p-page"
     >
       <h1
-        class="text-back text-5xl font-semibold font-rubik italic1 text-center"
+        class="text-back text-5xl font-semibold font-montserrat italic1 text-center"
       >
         MEET OUR FOUNDERS
       </h1>
@@ -140,7 +140,7 @@
   @apply w-[14vw] mobile:w-[40vw] aspect-square rounded-full border-2 border-back my-8 object-cover;
 }
 .founder-card h2 {
-  @apply text-back pb-6 text-4xl italic1 font-rubik font-medium;
+  @apply text-back pb-6 text-4xl italic1 font-montserrat font-medium;
 }
 .founder-card p {
   @apply text-back font-thin text-justify tracking-tight;

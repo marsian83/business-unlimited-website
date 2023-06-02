@@ -156,6 +156,6 @@
 
 <style scoped>
 .heading {
-  @apply text-2xl font-semibold font-rubik tracking-wide;
+  @apply text-2xl font-semibold font-montserrat tracking-wide;
 }
 </style>

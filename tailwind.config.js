@@ -24,7 +24,7 @@ module.exports = {
         mute: "#68778d",
       },
       fontFamily: {
-        rubik: "'Rubik', 'Open Sans', sans-serif",
+        montserrat: "'Montserrat', sans-serif",
       },
     },
   },
