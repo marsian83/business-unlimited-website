@@ -4,8 +4,16 @@
   >
     <section
       id="hero"
-      class="h-screen snap-start py-24 bg-cover bg-bottom p-page flex flex-col justify-center items-center"
+      class="h-screen relative snap-start py-24 bg-cover bg-bottom p-page flex flex-col justify-center items-center"
     >
+      <span
+        class="material-icons absolute bottom-4 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
+        >&#xe313;</span
+      >
+      <span
+        class="material-icons absolute bottom-8 mobile:bottom-6 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
+        >&#xe313;</span
+      >
       <h1 class="text-5xl py-4 font-semibold italic1 font-montserrat">
         The Premise
       </h1>
@@ -22,9 +30,19 @@
       </p>
     </section>
     <section
-      class="flex h-screen snap-start justify-center items-center flex-col p-page py-24 bg-gradient-to-r from-front to-foreground text-back"
+      class="flex relative h-screen snap-start justify-center items-center flex-col p-page py-24 bg-gradient-to-r from-front to-foreground text-back"
     >
-      <h1 class="text-5xl pb-8 font-semibold italic1 font-montserrat text-center">
+      <span
+        class="material-icons absolute bottom-4 text-6xl left-1/2 -translate-x-1/2 z-[2] text-background mobile:text-3xl"
+        >&#xe313;</span
+      >
+      <span
+        class="material-icons absolute bottom-8 mobile:bottom-6 text-6xl left-1/2 -translate-x-1/2 z-[2] text-background mobile:text-3xl"
+        >&#xe313;</span
+      >
+      <h1
+        class="text-5xl pb-8 font-semibold italic1 font-montserrat text-center"
+      >
         We are your growth advisors
       </h1>
       <p
@@ -46,8 +64,16 @@
       </p>
     </section>
     <section
-      class="h-screen snap-start flex justify-center items-center flex-col p-page py-24"
+      class="h-screen snap-start relative flex justify-center items-center flex-col p-page py-24"
     >
+      <span
+        class="material-icons absolute bottom-4 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
+        >&#xe313;</span
+      >
+      <span
+        class="material-icons absolute bottom-8 mobile:bottom-6 text-6xl left-1/2 -translate-x-1/2 z-[2] text-primary mobile:text-3xl"
+        >&#xe313;</span
+      >
       <h1 class="text-center font-montserrat text-5xl font-bold italic1">
         Our Ethos
       </h1>

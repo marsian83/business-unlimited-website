@@ -159,10 +159,10 @@ const businessCollaborations = [
                 class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               /> -->
               <span class="flex-grow flex flex-col">
-                <span class="title-font font-medium text-gray-900"
+                <!-- <span class="title-font font-medium text-gray-900"
                   >Sanjay Poddar</span
-                >
-                <span class="text-gray-500 text-sm">HALDIRAM SNACKS</span>
+                > -->
+                <span class="font-semibold">HALDIRAM SNACKS</span>
               </span>
             </a>
           </div>
@@ -198,10 +198,10 @@ const businessCollaborations = [
                 class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               /> -->
               <span class="flex-grow flex flex-col">
-                <span class="title-font font-medium text-gray-900"
+                <!-- <span class="title-font font-medium text-gray-900"
                   >Leona Chopkorir</span
-                >
-                <span class="text-gray-500 text-sm">DIRECTOR - ACI</span>
+                > -->
+                <span class="font-semibold">DIRECTOR - ACI</span>
               </span>
             </a>
           </div>

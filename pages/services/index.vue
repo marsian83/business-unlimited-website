@@ -232,15 +232,16 @@ const programs = [
 
 const meetings = await useFetch("https://api.npoint.io/98e5bbe82c045818f723");
 
-onMounted(() => {
-});
+onMounted(() => {});
 </script>
 
 <template>
   <section
     class="p-page pt-24 pb-8 flex flex-col justify-center items-center bg-foreground text-back"
   >
-    <h1 class="text-5xl mobile:text-3xl font-semibold font-montserrat italic1 py-4">
+    <h1
+      class="text-5xl mobile:text-3xl font-semibold font-montserrat italic1 py-4"
+    >
       What do we offer?
     </h1>
     <p class="text-back text-opacity-70">
@@ -290,9 +291,11 @@ onMounted(() => {
       unlimited.
     </p>
     <p class="text-back mt-8 mb-4">Who would like to have a meeting with?</p>
-    <div class="flex justify-center mobile:flex-col mobile:gap-y-6 gap-x-12 w-full items-center pb-8">
+    <div
+      class="flex justify-center mobile:flex-col mobile:gap-y-6 gap-x-12 w-full items-center pb-8"
+    >
       <NuxtLink
-        class="bg-background text-front flex justify-center items-center text-2xl font-medium italic rounded-xl w-[10vw] mobile:w-[80vw] py-5 duration-300 hover:-translate-y-1"
+        class="bg-background text-front flex justify-center whitespace-nowrap items-center text-2xl font-medium italic rounded-xl w-[30vw] mobile:w-[80vw] py-5 duration-300 hover:-translate-y-1"
         v-for="mtng of meetings.data.value"
         :to="mtng.link"
       >
