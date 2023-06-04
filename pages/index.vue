@@ -129,81 +129,212 @@ const businessCollaborations = [
       >
         Testimonials
       </h1>
-      <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/2 w-full">
-          <div
-            class="h-full shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="block w-5 h-5 text-gray-400 mb-4"
-              viewBox="0 0 975.036 975.036"
+      <div class="overflow-x-scroll overflow-y-clip testimonials-container">
+        <div class="flex m-4 flex-row w-[250vw]">
+          <div class="p-4 md:w-[50vw] w-full">
+            <div
+              class="h-full shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
             >
-              <path
-                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
-              ></path>
-            </svg>
-            <p class="leading-relaxed mb-6">
-              Rajeev, coached and mentored me through my difficult times,
-              specially when I was quite disappointed of not getting a well
-              deserved promotion or not being able to communicate with my MD
-              (reporting boss) on the expected deliverables. His clarity of
-              expression and deep listening of what is being said and 'not' said
-              were of immense value to dwell on my personal challenges as well
-            </p>
-            <a class="inline-flex items-center">
-              <!-- <img
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Rajeev, coached and mentored me through my difficult times,
+                specially when I was quite disappointed of not getting a well
+                deserved promotion or not being able to communicate with my MD
+                (reporting boss) on the expected deliverables. His clarity of
+                expression and deep listening of what is being said and 'not'
+                said were of immense value to dwell on my personal challenges as
+                well
+              </p>
+              <a class="inline-flex items-center">
+                <!-- <img
                 alt="testimonial"
                 src="https://www.mantruckandbus.com/fileadmin/_processed_/9/c/csm_FT_05-06_Header_Schoenherr_2-min_d50a71a2cd.jpg"
                 class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-              /> -->
-              <span class="flex-grow flex flex-col">
-                <!-- <span class="title-font font-medium text-gray-900"
-                  >Sanjay Poddar</span
+                /> -->
+                <span class="flex-grow flex flex-col">
+                  <!-- <span class="title-font font-medium text-gray-900"
+                    >Sanjay Poddar</span
                 > -->
-                <span class="font-semibold">HALDIRAM SNACKS</span>
-              </span>
-            </a>
+                  <span class="font-semibold">HALDIRAM SNACKS</span>
+                </span>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="p-4 md:w-1/2 w-full">
-          <div
-            class="h-full bg-background shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="block w-5 h-5 text-gray-400 mb-4"
-              viewBox="0 0 975.036 975.036"
+          <div class="p-4 md:w-[50vw] w-full">
+            <div
+              class="h-full bg-background shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
             >
-              <path
-                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
-              ></path>
-            </svg>
-            <p class="leading-relaxed mb-6">
-              It is a privilege to be a mentee with Anamika. I have learnt great
-              things from her resourcefulness. I have since grown and do
-              contribute it partly to her kindness and perseverance as my
-              mentor. Her sharing of her own professional and personal
-              experiences inspired and influenced me which then led to critical
-              insights to work on my blind spots. My learnings to deal with
-              complex and ambiguous situations, difficult people has been
-              instrumental in my growth both as a professional and a person
-            </p>
-            <a class="inline-flex items-center">
-              <!-- <img
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                It is a privilege to be a mentee with Anamika. I have learnt
+                great things from her resourcefulness. I have since grown and do
+                contribute it partly to her kindness and perseverance as my
+                mentor. Her sharing of her own professional and personal
+                experiences inspired and influenced me which then led to
+                critical insights to work on my blind spots. My learnings to
+                deal with complex and ambiguous situations, difficult people has
+                been instrumental in my growth both as a professional and a
+                person
+              </p>
+              <a class="inline-flex items-center">
+                <!-- <img
+                alt="testimonial"
+                src="http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                /> -->
+                <span class="flex-grow flex flex-col">
+                  <!-- <span class="title-font font-medium text-gray-900"
+                  >Leona Chopkorir</span
+                > -->
+                  <span class="font-semibold"
+                    >Regional Operations Director- Africa - Conservation
+                    International</span
+                  >
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-[50vw] w-full">
+            <div
+              class="h-full bg-background shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                complex management matters. Her hand holding has been a
+                priceless support for me to gain confidence as a leader. As a
+                mentor, she has helped me understand my real self, identify my
+                own potentials and strengths to deal with various management
+                issues. This relationship has also given me an opportunity to
+                work on my improvement areas, identified during our
+                interactions, which have proven to be critically beneficial for
+                both my personal and professional life. Anamika is a spontaneous
+                leader with clear insights. Her style is direct yet respectful
+                and empathetic, practical yet strategic
+              </p>
+              <a class="inline-flex items-center">
+                <!-- <img
                 alt="testimonial"
                 src="http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg"
                 class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
               /> -->
-              <span class="flex-grow flex flex-col">
-                <!-- <span class="title-font font-medium text-gray-900"
+                <span class="flex-grow flex flex-col">
+                  <!-- <span class="title-font font-medium text-gray-900"
                   >Leona Chopkorir</span
                 > -->
-                <span class="font-semibold">DIRECTOR - ACI</span>
-              </span>
-            </a>
+                  <span class="font-semibold"
+                    >Country Executive Director - Conservation International
+                    Philippines</span
+                  >
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-[50vw] w-full">
+            <div
+              class="h-full bg-background shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Anamika’s astute leadership and managerial skills are
+                instrumental in giving clearer insights for my growth and career
+                direction. I have greatly benefited from the engagement and have
+                improved performance and productivity for my social enterprise,
+                Happy Universe LLP. Ms Anamika has a holistic business acumen
+                coupled with a strong background in sustainability from her own
+                experience in the industry. She always helped me explore on the
+                best opportunities and set a clearer sense of direction towards
+                my progression as a social entrepreneur in this field. The
+                journey has been very reflective and delightful
+              </p>
+              <a class="inline-flex items-center">
+                <!-- <img
+                alt="testimonial"
+                src="http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                /> -->
+                <span class="flex-grow flex flex-col">
+                  <!-- <span class="title-font font-medium text-gray-900"
+                  >Leona Chopkorir</span
+                  > -->
+                  <span class="font-semibold"
+                    >Founder Happy Universe LLP - Singapore</span
+                  >
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-[50vw] w-full">
+            <div
+              class="h-full bg-background shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                I worked with Rajeev as a ‘Grief and End of Life’ coach to
+                explore my challenges of moving forward. The connectedness and
+                being non judgmental / un-biased provided me the safe space to
+                express truthfully & completely. His listening and complete
+                presence support by succinct enquiries assisted me in going
+                deeper into myself - Innocent
+              </p>
+              <a class="inline-flex items-center">
+                <!-- <img
+                alt="testimonial"
+                src="http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                /> -->
+                <span class="flex-grow flex flex-col">
+                  <!-- <span class="title-font font-medium text-gray-900"
+                  >Leona Chopkorir</span
+                  > -->
+                  <span class="font-semibold">Tendai Mujajati / Zimbabwe</span>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

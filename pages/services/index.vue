@@ -290,7 +290,7 @@ onMounted(() => {});
       hurdles to unlock that potential so you and your business are truly
       unlimited.
     </p>
-    <p class="text-back mt-8 mb-4">Who would like to have a meeting with?</p>
+    <p class="text-back mt-8 mb-4">What would you like to contact us for??</p>
     <div
       class="flex justify-center mobile:flex-col mobile:gap-y-6 gap-x-12 w-full items-center pb-8"
     >
