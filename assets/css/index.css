@@ -16,10 +16,10 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44aa33;
+  background: theme("colors.primary");
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #aaffdd;
+  background: theme("colors.secondary");
 }
