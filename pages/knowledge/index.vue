@@ -1,3 +1,9 @@
+<script setup>
+let objects = await useFetch("https://api.npoint.io/e976d956bdd8c10460d1");
+objects = objects.data.value;
+// console.log(objects);
+</script>
+
 <template>
   <section class="pt-24 p-page flex flex-col gap-y-4">
     <div class="flex relative overflow-hidden mobile:flex-col-reverse">
@@ -35,13 +41,13 @@
           and grow.
         </p>
       </div>
-      <div class="h-full mobile:my-6">
-        <InstagramPost />
+      <div class="h-full mobile:my-6" v-if="objects[0]">
+        <InstagramPost :link="objects[0].link" :image="objects[0].image" />
       </div>
     </div>
     <div class="flex overflow-hidden mobile:flex-col">
-      <div class="h-full">
-        <InstagramPost />
+      <div class="h-full" v-if="objects[1]">
+        <InstagramPost :link="objects[1].link" :image="objects[1].image" />
       </div>
       <div class="flex flex-col gap-y-4 pl-3">
         <hr />
@@ -109,14 +115,14 @@
           particular job / organization.
         </p>
       </div>
-      <div class="h-full">
-        <InstagramPost />
+      <div class="h-full" v-if="objects[2]">
+        <InstagramPost :link="objects[2].link" :image="objects[2].image" />
       </div>
     </div>
 
     <div class="flex mobile:flex-col">
-      <div class="h-full">
-        <InstagramPost />
+      <div class="h-full" v-if="objects[3]">
+        <InstagramPost :link="objects[3].link" :image="objects[3].image" />
       </div>
       <div class="flex flex-col gap-y-4 pl-3">
         <hr />
