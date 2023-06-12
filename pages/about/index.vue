@@ -18,15 +18,15 @@
         The Premise
       </h1>
       <p class="text-front text-center text-lg">
-        We believe many entrepreneurs and business leaders today are tackling
-        their problems alone. They don't have the access to tap professional
-        help in terms of support, mentorship, guidance or coaching. Without this
-        support, they might find it harder to stay accountable and make informed
-        decisions while also failing to grow as a leader. In ever evolving
-        conditions, we don't need to wait for a crisis to seek external support.
-        We believe that being proactive accelerates the steering towards
-        achieving personal and professional growth and see things from a
-        different perspective
+        In today's fast-paced business landscape, many individuals,
+        entrepreneurs, and business leaders face the challenge of navigating
+        their problems alone. They lack access to professional support,
+        mentorship, guidance, or coaching, which can hinder their ability to
+        stay accountable, make informed decisions, and grow as leaders. At
+        Business Unlimited, we believe that waiting for a crisis to seek
+        external support is unnecessary. We advocate for a proactive approach
+        that accelerates personal and professional growth, providing individuals
+        with a fresh perspective.
       </p>
     </section>
     <section
@@ -48,13 +48,13 @@
       <p
         class="text-transparent text-center bg-gradient-to-r from-back to-back bg-clip-text text-lg"
       >
-        Business Unlimited is the brainchild of a group of business leaders and
-        certified executive coaches with passion for business and personal
-        transformation to fill the gap. Business Unlimited believes that every
-        entrepreneur/leader is the key to building a better world and has the
-        required potential to succeed. We connect with you as a whole person,
-        and work with you to overcome your hurdles to unlock that potential so
-        you and your business are truly unlimited.
+        Business Unlimited is the brainchild of experienced business leaders and
+        certified executive coaches who are passionate about fostering business
+        and personal transformation. We firmly believe that every individual
+        possesses the potential to succeed and play a pivotal role in building a
+        better world. By connecting with you as a whole person, we work
+        collaboratively to overcome obstacles and unlock your unlimited
+        potential, enabling both you and your business to thrive.
       </p>
       <p
         class="text-white text-center italic1 pt-8 opacity-80 text-lg font-thin tracking-wider"
@@ -77,24 +77,24 @@
       <h1 class="text-center font-montserrat text-5xl font-bold italic1">
         Our Ethos
       </h1>
-      <p class="text-center flex flex-col py-6 text-mute">
-        ONE SIZE DOESN'T FIT ALL !!
+      <p class="text-center flex flex-col py-6 text-mute text-2xl">
+        We understand that one size doesn't fit all !!
       </p>
       <hr class="opacity-0 text-center" />
       <p class="text-center text-lg">
-        We develop tailored solutions after understanding your specific
-        challenges and steer you towards faster growth and performance. We
-        engage with you as a whole person as we believe that the "personal" and
-        "professional" aspects of one's life are inseparable from each other and
-        growing in both avenues simultaneously is what makes a great leader from
-        the rest. We are engaged by businesses across all sectors - be it
-        startups, legacy empires, enterprises, or corporations for a strategic
-        bend into their growth trajectory.
+        Therefore, we develop tailored solutions that address your specific
+        challenges, steering you towards financial growth and personal
+        development. By nurturing growth in both personal and professional
+        domains simultaneously, we believe you can expedite the achievement of
+        your desired outcomes. We are engaged by diverse businesses across
+        sectors, including individuals, startups, family-owned businesses,
+        enterprises, and corporations, to strategically enhance their growth
+        trajectories.
       </p>
     </section>
     <section
       id="founders"
-      class="widescreen:h-screen snap-start flex flex-col gap-y-10 justify-center items-center pt-24 bg-gradient-to-tl from-front to-foreground p-page"
+      class="widescreen:h-screen snap-start flex flex-col gap-y-6 justify-center items-center pt-24 bg-gradient-to-tl from-front to-foreground p-page"
     >
       <h1
         class="text-back text-5xl font-semibold font-montserrat italic1 text-center"
@@ -107,20 +107,19 @@
           <div class="founder-card-content">
             <h2 class="">Anamika</h2>
             <p class="">
-              A transformational and charismatic global leader with
-              international experience of more than 25 years, Anamika blends her
-              cultural sensitivity to her tough output-oriented approach and
-              gives every interaction and intervention her own spin. She has
-              built and led high performing teams of as big as 200 people in
-              multi-ethnic environments in India, Southeast Asia, the Pacific,
-              Latin America, Europe, and Africa. Due to her varied knowledge and
-              global exposure, she finds herself comfortable working in
-              high-pressure situations while specializing in leadership
-              competencies, strategic planning and execution, business process
-              improvement among other skills. She has worked in various global,
-              regional, and country leadership positions in multinational giants
-              such as Conservation International, PwC, Ernst & Young, and the
-              William J Clinton Foundation.
+              With over 25 years of international experience, Anamika is a
+              transformational and charismatic global leader. Her cultural
+              sensitivity, combined with a results-oriented approach, infuses
+              every interaction and intervention with her unique touch. Having
+              led high-performing teams of up to 250 individuals in multi-ethnic
+              environments across India, Southeast Asia, the Pacific, Latin
+              America, Europe, and Africa, she thrives in high-pressure
+              situations. Anamika specializes in leadership competencies,
+              strategic planning and execution, and business process
+              improvements. Her extensive background includes holding leadership
+              positions in multinational giants such as Conservation
+              International, PwC, Ernst & Young, and the William J Clinton
+              Foundation.
             </p>
           </div>
         </div>
@@ -130,22 +129,29 @@
           <div class="founder-card-content">
             <h2>Rajeev</h2>
             <p class="">
-              Through his decision-making prowess and leadership skills, Rajeev
-              has successfully led teams as a CXO leader over a period of three
-              decades in several multinational companies. Known for formulating
-              and implementing strategies for enhancing organizational bottom
-              lines, he has worked closely with boards, senior management and
-              business owners towards organization configuration, cost-benefit,
-              and value chain analysis, among other strategies. He combines his
-              varied experience of working in multiple formats and sizes of
-              business with his keen understanding of human behavior and infuses
-              these into his style. He has worked in leadership positions in
-              multinational companies such as Voltas Ltd, Trans Africa, Asmara
-              International, Elangperdana Tyres, just to name a few.
+              Over three decades, Rajeev has demonstrated his decision-making
+              prowess and leadership skills by successfully leading teams as a
+              CXO leader in various multinational companies. Renowned for
+              formulating and implementing strategies to enhance organizational
+              bottom lines, he has collaborated closely with boards, senior
+              management, and business owners on organization configuration,
+              cost-benefit analysis, and value chain optimization. Rajeev
+              leverages his diverse experience across different business formats
+              and sizes, complemented by his keen understanding of human
+              behaviour. His leadership roles encompass notable multinational
+              companies such as Voltas Ltd, Trans Africa, Asmara International,
+              and Elangperdana Tyres.
             </p>
           </div>
         </div>
       </div>
+
+      <p class="text-white text-center mb-8 text-lg">
+        By harnessing our collective expertise and experiences, we at Business
+        Unlimited are committed to driving your growth, empowering you to reach
+        new heights of success in both your personal and professional
+        endeavours.
+      </p>
     </section>
   </main>
 </template>

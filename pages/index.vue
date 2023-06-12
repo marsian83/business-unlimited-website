@@ -80,16 +80,18 @@ const businessCollaborations = [
     <h1
       class="text-5xl font-semibold italic1 text-center font-montserrat mobile:text-2xl"
     >
-      Innovative ways to enable <br />
-      your business and self-growth.
+      <!-- Innovative ways to enable <br /> -->
+      Welcome to Business Unlimited
     </h1>
-    <h2 class="text-2xl italic1 text-center mobile:text-sm">
+    <!-- <h2 class="text-2xl italic1 text-center mobile:text-sm">
       Struggling to grow your business or sustain your growth?
       <br />
-      Want to thrive with positivity, optimism and energy?
-    </h2>
-    <h3 class="text-4xl font-semibold italic1 text-primary font-montserrat">
-      We can help!
+      Want to thrive with positivity, optimism and energy? 
+    </h2> -->
+    <h3
+      class="text-4xl font-semibold italic1 text-center text-primary font-montserrat"
+    >
+      We can make your 'rich-life' possible!
     </h3>
     <div class="flex gap-x-8">
       <NuxtLink to="/services" class="btn-1 px-4 py-2 font-bold text-lg"
@@ -106,6 +108,40 @@ const businessCollaborations = [
   <section class="bg-[#00203f] p-[10vw] py-24 mobile:px-8 mobile:py-5">
     <img src="/images/vector.png" alt="" />
   </section>
+  <section
+    class="p-page py-14 flex flex-col items-center gap-y-6 mobile:gap-y-3"
+  >
+    <h1
+      class="text-3xl font-semibold italic1 text-center font-montserrat mobile:text-2xl mobile:py-8"
+    >
+      Why Us
+    </h1>
+    <p class="text-xl text-mute text-center mobile:text-base">
+      Business Unlimited is dedicated to helping individuals and businesses
+      achieve their financial and personal growth goals. Our team of experts
+      provides comprehensive 360-degree development programs to steer you
+      towards your 'Rich Life.'
+    </p>
+  </section>
+  <section
+    class="p-page py-14 flex flex-col items-center gap-y-6 mobile:gap-y-3 mobile:py-8"
+  >
+    <h1
+      class="text-3xl font-semibold italic1 text-center font-montserrat mobile:text-2xl"
+    >
+      What We Do
+    </h1>
+    <p class="text-xl text-center text-mute mobile:text-base">
+      At Business Unlimited, we offer the following programs to support your
+      growth:
+      <br />
+      <b class="text-front"> 1. </b>
+      Money Growth Program – elevate your personal / business finances
+      <br />
+      <b class="text-front"> 2. </b>
+      Self-Growth Program – making you, the ‘best’ version of yourself
+    </p>
+  </section>
   <!-- <section
     id="a"
     class="h-screen bg-gradient-to-b from-black to-foreground"
@@ -118,8 +154,17 @@ const businessCollaborations = [
   </section> -->
   <section id="collaborations" class="p-page py-8">
     <h1 class="heading text-center">
-      Business <span class="text-primary">Collaborations</span>
+      Business Partnerships and
+      <span class="text-primary">Collaborations</span>
     </h1>
+    <p class="text-xl text-mute text-center mobile:text-sm">
+      A partnership model of Business Unlimited signifies a formal and
+      professional approach of collaborating with like-minded organizations. By
+      harnessing the unique strengths and expertise of each partner, the model
+      helps Business Unlimited to leverage diverse perspectives, skills,
+      experiences, driving innovation and fostering a culture of continuous
+      improvement to deliver exceptional results.
+    </p>
     <Carousel1 :items="businessCollaborations" />
   </section>
   <section class="text-gray-600 body-font">
@@ -130,7 +175,7 @@ const businessCollaborations = [
         Testimonials
       </h1>
       <div class="overflow-x-scroll overflow-y-clip testimonials-container">
-        <div class="flex m-4 flex-row w-[250vw]">
+        <div class="flex m-4 flex-row w-[250vw] mobile:w-[250vh]">
           <div class="p-4 md:w-[50vw] w-full">
             <div
               class="h-full shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"

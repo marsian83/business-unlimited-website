@@ -4,9 +4,14 @@
     ref="navbar"
   >
     <!-- <img src="/logo.svg" alt="business unlimited logo" /> -->
-    <NuxtLink to="/" class="italic1 text-primary font-montserrat font-bold text-3xl"
-      ><img src="/logo.png" alt="business unlimited logo" class="h-[2.6ch] aspect-auto"></NuxtLink
-    >
+    <NuxtLink
+      to="/"
+      class="italic1 text-primary font-montserrat font-bold text-3xl"
+      ><img
+        src="/logo.png"
+        alt="business unlimited logo"
+        class="h-[2.6ch] aspect-auto"
+    /></NuxtLink>
     <button class="widescreen:hidden">
       <img
         src="/icons/hamburger.png"
@@ -21,7 +26,7 @@
     >
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/services">Services</NuxtLink>
-      <NuxtLink to="/about">About Us</NuxtLink>
+      <NuxtLink to="/about">Why Us</NuxtLink>
       <NuxtLink to="/knowledge">Knowledge</NuxtLink>
     </div>
   </nav>

@@ -16,8 +16,12 @@ const props = defineProps<propTypes>();
     class="card border overflow-hidden border-front rounded-3xl border-opacity-40 flex flex-col justify-between"
   >
     <div class="">
-      <div class="bg-front p-6">
-        <h1 class="text-2xl font-bold text-center text-back font-montserrat italic1">
+      <div
+        class="bg-front widescreen:h-[12em] flex flex-col justify-evenly p-6"
+      >
+        <h1
+          class="text-2xl font-bold text-center text-back font-montserrat italic1"
+        >
           {{ title }}
           <span
             class="bg-clip-text text-transparent capitalize"
@@ -31,11 +35,30 @@ const props = defineProps<propTypes>();
           {{ description }}
         </p>
       </div>
-      <div class="p-4 flex items-center">
+      <!-- <div class="p-4 flex items-center">
         <div class="bullet"></div>
         <div class="w-full">
           <h2 class="text-xl font-bold">Who is it for?</h2>
-          <p class="text-mute">{{ isFor }}</p>
+          <div v-for="item of isFor">
+            <p class="text-mute">{{ item }}</p>
+          </div>
+        </div>
+      </div> -->
+      <div class="p-4 flex">
+        <div class="bullet"></div>
+        <div class="w-full">
+          <h2 class="text-xl font-bold">Who is it for</h2>
+          <!-- <p class="py-2">
+            {{ content.heading }}
+          </p> -->
+          <ul class="text-mute list-disc ml-[1rem]">
+            <li
+              v-for="item of isFor"
+              class="relative group cursor-default duration-300 hover:text-black"
+            >
+              {{ item }}
+            </li>
+          </ul>
         </div>
       </div>
       <div class="p-4 flex">
@@ -46,7 +69,10 @@ const props = defineProps<propTypes>();
             {{ content.heading }}
           </p>
           <ul class="text-mute list-disc ml-[1rem]">
-            <li v-for="item of content.items" class="relative underline group cursor-default duration-300 hover:text-black">
+            <li
+              v-for="item of content.items"
+              class="relative underline group cursor-default duration-300 hover:text-black"
+            >
               {{ item.content }}
               <p
                 class="absolute bottom-0 translate-y-full bg-background shadow-lg rounded-lg p-2 hidden group-hover:flex z-[1] pointer-events-none border border-front text-front text-sm"

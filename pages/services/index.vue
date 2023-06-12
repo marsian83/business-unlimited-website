@@ -13,17 +13,24 @@ let calendlyWidget = ref(null);
 
 const programs = [
   {
-    title: "Business Growth Program",
+    title: "Money Growth Program",
     description:
-      "Watch your business perform better. Address silos, get killer strategies, and make more money.",
+      "Watch yourself excel in personal and business finances with our Money Growth Program.",
     packages: [
       {
         title: "Business Growth",
         description:
-          "We bring together a group of like-minded entrepreneurs (a mirror image of a Corporate Board) serving as a sounding platform bringing their collective intelligence to work through your challenges. We learn from each other.",
-        isFor: "Entrepreneurs/Startups",
+          "Personalized: tailored solutions to address your specific business challenges and drive sustainable growth. Collaborative: join a group of like-minded entrepreneurs, creating a collective intelligence platform to work through challenges together. ",
+        isFor: [
+          "Successful first-generation entrepreneurs looking to multiply their business value.",
+          "Next-generation family business owners seeking to align their businesses with modern trends and strategies.",
+          "Business owners looking for fresh energy and diverse experiences to take their businesses to the next level.",
+          "Solopreneurs who need support to grow their business effectively.",
+          "Startups aiming to build robust processes, strategies, and structures. ",
+        ],
         content: {
-          heading: "Get practical and doable solutions for - ",
+          heading:
+            "Our program offers practical solutions to challenges such as : ",
           items: [
             {
               content: "market scenario analysis",
@@ -60,113 +67,143 @@ const programs = [
               tooltip:
                 "The process of developing and implementing strategies to increase sales revenue, with a focus on expanding customer reach and improving customer satisfaction.",
             },
-          ],
-        },
-        edge: "We have partnered with The Alpha Group, an international organization with presence over 20 countries, and who have a track record of facilitating businesses and multiplying their growth successfully for over a decade.",
-        type: "gold",
-      },
-      {
-        title: "Business Growth",
-        description:
-          "We have personalized business coaching / mentoring/ consulting / advising on specific business challenges or gaps in required skill set converting groups into focused teams. We learn from each other.",
-        isFor: "Business Owners/Corporates/Startups",
-        content: {
-          heading: "Elevate your existing business, get expert guidance on- ",
-          items: [
             {
-              content: "business restructuring",
+              content: "business restructuring ",
               tooltip:
-                "The process of reorganizing a company's operations and structure, often with the goal of improving efficiency, reducing costs, or adapting to changing market conditions.",
+                "Making business more efficient and profitable by aligning all their resources to the objectives and goals",
             },
             {
-              content: "specific areas such as digitalization",
-              tooltip:
-                "The process of incorporating digital technologies and strategies into a company's operations, with the goal of improving efficiency, reaching new customers, and enhancing overall performance.",
-            },
-            {
-              content: "software solutions",
-              tooltip:
-                "Computer programs and applications designed to perform specific tasks or solve particular problems, such as managing data, improving productivity, or enhancing customer experience.",
-            },
-            {
-              content: "effective organizational structure",
-              tooltip:
-                "The arrangement of a company's resources and employees in a way that maximizes efficiency, productivity, and communication, often through the creation of clear roles and responsibilities, and effective reporting lines.",
+              content: "Digitalization, Automation, Software solutions ",
+              tooltip: "",
             },
             {
               content: "operations excellence",
               tooltip:
-                "The process of achieving high levels of efficiency and quality in a company's operations, often through the use of lean management principles, continuous improvement initiatives, and effective performance metrics.",
+                "Achieving excellence in productivity by optimizing resources and removing redundancies",
             },
             {
-              content: "business transformation",
-              tooltip:
-                "A fundamental and far-reaching change in a company's operations, structure, or culture, often with the goal of achieving significant improvements in performance or adapting to changing market conditions.",
+              content: "business transformation ",
+              tooltip: "strategies and guidance on transforming your Business",
             },
             {
-              content: "team performance enhancement",
+              content: "Team performance enhancement",
               tooltip:
-                "The process of improving the performance and productivity of a company's employees, often through the implementation of training programs, coaching, and the creation of a positive and supportive work culture.",
+                "Cultivate collaborative eco system in your teams by removing silos, fostering trust, enhancing communication}} ",
             },
           ],
         },
-        edge: "We bring our expertise drawn from over 60 years of combined multinational industry experience spanning sectors as diverse as technology, manufacturing, FMCG, trading, and consulting etc. We have worked both for corporate and family-run businesses complemented by our deep understanding of working across many cultures.",
+        edge: "Benefit from our expertise spanning over six decades of combined leadership experience in diverse sectors, including technology, manufacturing, FMCG, trading, and consulting. We collaborate with international organizations known for facilitating business growth.",
+        type: "gold",
+      },
+      {
+        title: "Personal Money Growth",
+        description:
+          "Let us help you achieve financial freedom and build the rich life you desire. ",
+        isFor: [
+          "Individuals/professionals seeking financial comfort.",
+          "Those aspiring for financial independence and the ability to live life on their own terms.",
+          "Couples looking to create a cohesive financial plan for their future.",
+          "Solopreneurs neglecting their personal finances.",
+        ],
+        content: {
+          heading: "Elevate your finances for wealth creation through",
+          items: [
+            {
+              content: "financial literacy",
+              tooltip:
+                "Improved ability and skill development to understand and manage finances",
+            },
+            {
+              content: "learn financial prudence",
+              tooltip: "advance planning and execution for wealth creation",
+            },
+            {
+              content: "develop abundance mindset ",
+              tooltip: "inculcating an attitude that I have more than enough",
+            },
+            {
+              content: "create assets for financial independence",
+              tooltip:
+                "financial structuring that will help you do what you want to do without worrying about money",
+            },
+            {
+              content: "manage credit cards and debts ",
+              tooltip:
+                "track spending to manage your debts and loans including credit cards",
+            },
+            {
+              content:
+                "build a comprehensive financial plan aligned with your goals",
+              tooltip: "overall financial planning to have financial freedom",
+            },
+          ],
+        },
+        edge: "Our founders have personal experience in achieving financial independence, acquiring financial literacy, and building assets to live their desired rich lives. ",
         type: "platinum",
       },
     ],
   },
   {
-    title: "Self Enrichment Program",
+    title: "Self-Growth Program",
     description:
-      "This program enables you to be a better leader and an improved version of yourself. We work with you through personal (one-to-one) coaching and mentoring, helping to understand self and others, challenging some of your perceived beliefs not helping you to move forward.",
+      "Whether focusing on leadership at work or inner personality development, our program provides a holistic and transformative experience.",
     packages: [
       {
-        title: "Self Growth",
+        title: "Leadership Growth",
         description:
-          "Be it a business of your own or an employee of an organization,  each one has the potential to evolve as long as there's constant learning",
-        isFor: "Entrepreneurs, C-suite executives",
+          "Here we enable individuals to become effective leaders and enhance their overall capabilities.",
+        isFor: [
+          "specifically curated for C-suite executives, leaders at various organizational levels",
+          "women entrepreneurs seeking work-life balance",
+          "business owners aiming to enhance team productivity and create a preferred work environment",
+        ],
         content: {
           heading: "The program addresses gaps such as-",
           items: [
             {
+              content: "authentic Leadership ",
+              tooltip:
+                "explore the principles of authentic leadership and align personal values with professional roles",
+            },
+            {
               content: "goal setting and attainment",
               tooltip:
-                "The process of identifying specific objectives or targets for a person or organization, and developing strategies and plans to achieve them.",
+                "develop effective strategies for setting and achieving personal and professional goals}",
             },
             {
               content: "cognitive thinking",
               tooltip:
-                "The mental processes and skills used to perceive, understand, and reason about information, including skills such as perception, memory, attention, and problem-solving.",
+                "Enhance critical thinking skills and cultivate a problem-solving mindset",
             },
             {
               content: "motivating / guiding others",
               tooltip:
-                "The process of inspiring and directing others towards specific goals or objectives, often through the use of effective communication, leadership, and coaching skills.",
+                "acquire the skills to motivate and guide individuals or teams toward success",
             },
             {
               content: "inclusivity and diversity",
               tooltip:
-                "The practice of creating a workplace culture that is welcoming and supportive of people of all backgrounds, including people from diverse racial, ethnic, and cultural backgrounds, and people of all genders, ages, and abilities.",
+                "foster an inclusive work environment by understanding and valuing diverse perspectives",
             },
             {
               content: "cultural empathy development",
               tooltip:
-                "The process of developing a deep understanding and appreciation of different cultures, and the ability to interact effectively with people from diverse backgrounds.",
+                "Cultivate cultural empathy and enhance cross-cultural communication skills.",
             },
             {
               content: "strategic planning",
               tooltip:
-                "The process of developing a long-term plan for achieving specific goals or objectives, often through the analysis of internal and external factors, and the development of strategies and tactics to address them.",
+                "earn to develop and implement strategic plans to drive organizational growth",
             },
             {
               content: "work-life balance",
               tooltip:
-                "The practice of balancing the demands of work with the demands of personal and family life, often through the use of strategies such as flexible work hours, time management, and stress reduction techniques.",
+                "explore strategies to achieve a healthy work-life balance and maintain overall well-being",
             },
             {
               content: "stress management",
               tooltip:
-                "The practice of managing stress and anxiety in order to improve overall health and wellbeing, often through the use of techniques such as meditation, exercise, and time management.",
+                "Develop techniques to effectively manage stress and build resilience.",
             },
           ],
         },
@@ -174,56 +211,60 @@ const programs = [
         type: "gold",
       },
       {
-        title: "Self Growth",
+        title: "Inner Self Growth ",
         description:
-          "We strive to connect with you as a 'Whole Person,' to  work with you to overcome your hurdles, and unlock that potential so your life becomes *truly unlimited*",
-        isFor: "Self aware Individuals looking to improve.",
+          "Using proven structured approach, we provide personalized coaching, mentoring, and guidance to help you gain a deeper understanding of yourself and others.",
+        isFor: [
+          "Individuals, from any walk of life, seeking comprehensive personal development and a deeper understanding of their inner selves.",
+          "Professionals looking to get support for various career related challenges",
+          "Women looking to get back to their careers after sabbatical",
+        ],
         content: {
           heading: "Some of the specifically curated areas could be -",
           items: [
             {
-              content: "growth-centered approach to life",
+              content: "self-reflection ",
               tooltip:
-                "The practice of continuously striving for personal and professional growth, often through the development of new skills, experiences, and perspectives.",
+                "engage in introspective exercises to gain a deeper understanding of personal values, beliefs, and aspirations}",
             },
             {
-              content: "becoming self-dependent",
+              content: "emotional intelligence",
               tooltip:
-                "The process of becoming self-sufficient and independent, often through the development of skills such as critical thinking, problem-solving, and decision-making.",
+                "develop emotional intelligence skills to better manage emotions and enhance interpersonal relationships",
             },
             {
-              content: "self compassion",
+              content: "mindfulness and self-care",
               tooltip:
-                "The practice of being kind, understanding, and forgiving towards oneself, often through the development of a positive self-image and a focus on personal growth and improvement.",
+                "earn practices to cultivate mindfulness, reduce stress, and promote self-care",
             },
             {
-              content: "purpose and meaning",
+              content: "effective communication",
               tooltip:
-                "The practice of identifying and pursuing personal and professional goals that align with one's values and beliefs, and provide a sense of purpose and fulfillment.",
+                "enhance communication skills to build strong connections and resolve conflicts",
             },
             {
-              content: "emotional regulation",
+              content: "personal branding",
               tooltip:
-                "The ability to recognize, manage, and express one's emotions in a healthy and constructive way, often through the use of techniques such as mindfulness, meditation, and cognitive-behavioral therapy.",
+                "learn techniques to effectively represent oneself and create a positive personal brand",
             },
             {
-              content: "judgment and biases",
+              content: "resilience and adaptability",
               tooltip:
-                "The process of identifying and overcoming personal biases and prejudices, and developing a more objective and open-minded approach to decision-making and problem-solving.",
+                "build resilience to overcome challenges and embrace change",
             },
             {
-              content: "work-life balance",
+              content: "life vision and purpose",
               tooltip:
-                "The practice of balancing the demands of work with the demands of personal and family life, often through the use of strategies such as flexible work hours, time management, and stress reduction techniques.",
+                "dentify personal life vision and purpose to guide decision-making and prioritize goals",
             },
             {
-              content: "stress management",
+              content: "growth mindset",
               tooltip:
-                "The practice of managing stress and anxiety in order to improve overall health and wellbeing, often through the use of techniques such as meditation, exercise, and time management.",
+                "considering every mistake as learning and growth opportunity ",
             },
           ],
         },
-        edge: "We are a team of credentialed coaches (International Coaching Federation (ICF) and European Mentor and Coaching Council (EMCC)) and certified practitioner of neuro-linguistic programming (NLP)",
+        edge: "We are a team of credentialed coaches (International Coaching Federation (ICF) and European Mentor and Coaching Council (EMCC)) and Licensed practitioners of neuro-linguistic programming (NLP) ",
         type: "platinum",
       },
     ],
@@ -242,13 +283,12 @@ onMounted(() => {});
     <h1
       class="text-5xl mobile:text-3xl font-semibold font-montserrat italic1 py-4"
     >
-      What do we offer?
+      Our Services for Building Your 'Rich-Life'
     </h1>
     <p class="text-back text-opacity-70">
-      We are the push you need for business growth and self growth Business
-      Unlimited is your growth advisor, your progress umpire and
-      self-development trainer. Read on to understand what we offer, and you may
-      find something that works for you.
+      Business Unlimited serves as your growth advisor, progress umpire, and
+      self-development trainer. Explore our services and find the right fit for
+      you.
     </p>
   </section>
   <section v-for="program of programs" :id="program.title" class="p-page py-10">
@@ -261,7 +301,7 @@ onMounted(() => {});
       {{ program.description }}
     </h2>
     <div
-      class="program-cards flex justify-evenly mobile:flex-wrap mobile:gap-y-8 py-8"
+      class="program-cards flex justify-evenly items-start mobile:flex-wrap mobile:gap-y-8 py-8"
     >
       <ProgramCard
         v-for="pkg of program.packages"
@@ -322,7 +362,7 @@ onMounted(() => {});
 
 <style scoped>
 .program-cards {
-  --card-width: 38%;
+  --card-width: 48%;
 }
 @media only screen and (max-width: 780px) {
   .program-cards {
