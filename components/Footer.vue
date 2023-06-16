@@ -19,11 +19,11 @@
       >Book now</NuxtLink
     >
     <p class="text-xl italic1 opacity-75 text-back text-center py-6">
-      Business Unlimited believes that every entrepreneur/leader is the key to
+      <!-- Business Unlimited believes that every entrepreneur/leader is the key to
       building a better world and has the required potential to succeed. We
       connect with you as a whole person, and work with you to overcome your
       hurdles to unlock that potential so you and your business are truly
-      unlimited.
+      unlimited. -->
     </p>
   </section>
 </template>

@@ -6,6 +6,7 @@ interface propTypes {
   content: { heading: string; items: { content: string; tooltip: string }[] };
   edge: string;
   type: string; //gold, platinum etc
+  book: boolean;
 }
 
 const props = defineProps<propTypes>();
@@ -92,6 +93,7 @@ const props = defineProps<propTypes>();
       </div>
     </div>
     <NuxtLink
+      v-if="book"
       to="#book-meeting"
       class="self-center px-8 py-2 mt-4 mb-8 rounded-md text-back font-bold shadow-xl duration-300 hover:shadow-lg hover:scale-105"
       :style="`background: var(--gradient-${type})`"

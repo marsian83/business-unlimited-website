@@ -13,6 +13,7 @@ let calendlyWidget = ref(null);
 
 const programs = [
   {
+    book: false,
     title: "Money Growth Program",
     description:
       "Watch yourself excel in personal and business finances with our Money Growth Program.",
@@ -20,7 +21,7 @@ const programs = [
       {
         title: "Business Growth",
         description:
-          "Personalized: tailored solutions to address your specific business challenges and drive sustainable growth. Collaborative: join a group of like-minded entrepreneurs, creating a collective intelligence platform to work through challenges together. ",
+          "Personalized: tailored solutions to address your specific business challenges and drive sustainable growth. \nCollaborative: join a group of like-minded entrepreneurs, creating a collective intelligence platform to work through challenges together. ",
         isFor: [
           "Successful first-generation entrepreneurs looking to multiply their business value.",
           "Next-generation family business owners seeking to align their businesses with modern trends and strategies.",
@@ -73,7 +74,7 @@ const programs = [
                 "Making business more efficient and profitable by aligning all their resources to the objectives and goals",
             },
             {
-              content: "Digitalization, Automation, Software solutions ",
+              content: "digitalization, automation, software solutions ",
               tooltip: "",
             },
             {
@@ -83,10 +84,10 @@ const programs = [
             },
             {
               content: "business transformation ",
-              tooltip: "strategies and guidance on transforming your Business",
+              tooltip: "Strategies and guidance on transforming your Business",
             },
             {
-              content: "Team performance enhancement",
+              content: "team performance enhancement",
               tooltip:
                 "Cultivate collaborative eco system in your teams by removing silos, fostering trust, enhancing communication}} ",
             },
@@ -96,6 +97,7 @@ const programs = [
         type: "gold",
       },
       {
+        book: false,
         title: "Personal Money Growth",
         description:
           "Let us help you achieve financial freedom and build the rich life you desire. ",
@@ -115,26 +117,26 @@ const programs = [
             },
             {
               content: "learn financial prudence",
-              tooltip: "advance planning and execution for wealth creation",
+              tooltip: "Advance planning and execution for wealth creation",
             },
             {
               content: "develop abundance mindset ",
-              tooltip: "inculcating an attitude that I have more than enough",
+              tooltip: "Inculcating an attitude that I have more than enough",
             },
             {
               content: "create assets for financial independence",
               tooltip:
-                "financial structuring that will help you do what you want to do without worrying about money",
+                "Financial structuring that will help you do what you want to do without worrying about money",
             },
             {
               content: "manage credit cards and debts ",
               tooltip:
-                "track spending to manage your debts and loans including credit cards",
+                "Track spending to manage your debts and loans including credit cards",
             },
             {
               content:
                 "build a comprehensive financial plan aligned with your goals",
-              tooltip: "overall financial planning to have financial freedom",
+              tooltip: "Overall financial planning to have financial freedom",
             },
           ],
         },
@@ -144,6 +146,7 @@ const programs = [
     ],
   },
   {
+    book: false,
     title: "Self-Growth Program",
     description:
       "Whether focusing on leadership at work or inner personality development, our program provides a holistic and transformative experience.",
@@ -153,9 +156,9 @@ const programs = [
         description:
           "Here we enable individuals to become effective leaders and enhance their overall capabilities.",
         isFor: [
-          "specifically curated for C-suite executives, leaders at various organizational levels",
-          "women entrepreneurs seeking work-life balance",
-          "business owners aiming to enhance team productivity and create a preferred work environment",
+          "Specifically curated for C-suite executives, leaders at various organizational levels",
+          "Women entrepreneurs seeking work-life balance",
+          "Business owners aiming to enhance team productivity and create a preferred work environment",
         ],
         content: {
           heading: "The program addresses gaps such as-",
@@ -163,12 +166,12 @@ const programs = [
             {
               content: "authentic Leadership ",
               tooltip:
-                "explore the principles of authentic leadership and align personal values with professional roles",
+                "Explore the principles of authentic leadership and align personal values with professional roles",
             },
             {
               content: "goal setting and attainment",
               tooltip:
-                "develop effective strategies for setting and achieving personal and professional goals}",
+                "Develop effective strategies for setting and achieving personal and professional goals}",
             },
             {
               content: "cognitive thinking",
@@ -178,12 +181,12 @@ const programs = [
             {
               content: "motivating / guiding others",
               tooltip:
-                "acquire the skills to motivate and guide individuals or teams toward success",
+                "Acquire the skills to motivate and guide individuals or teams toward success",
             },
             {
               content: "inclusivity and diversity",
               tooltip:
-                "foster an inclusive work environment by understanding and valuing diverse perspectives",
+                "Foster an inclusive work environment by understanding and valuing diverse perspectives",
             },
             {
               content: "cultural empathy development",
@@ -193,12 +196,12 @@ const programs = [
             {
               content: "strategic planning",
               tooltip:
-                "earn to develop and implement strategic plans to drive organizational growth",
+                "Earn to develop and implement strategic plans to drive organizational growth",
             },
             {
               content: "work-life balance",
               tooltip:
-                "explore strategies to achieve a healthy work-life balance and maintain overall well-being",
+                "Explore strategies to achieve a healthy work-life balance and maintain overall well-being",
             },
             {
               content: "stress management",
@@ -207,10 +210,11 @@ const programs = [
             },
           ],
         },
-        edge: "We are a team of credentialed coaches (International Coaching Federation (ICF) and European Mentor and Coaching Council (EMCC)) and certified practitioner of neuro-linguistic programming (NLP)",
+        edge: "We are a team of credentialed coaches (International Coaching Federation (ICF) and European Mentor and Coaching Council (EMCC)) and certified systemic team coaches",
         type: "gold",
       },
       {
+        book: false,
         title: "Inner Self Growth ",
         description:
           "Using proven structured approach, we provide personalized coaching, mentoring, and guidance to help you gain a deeper understanding of yourself and others.",
@@ -225,42 +229,42 @@ const programs = [
             {
               content: "self-reflection ",
               tooltip:
-                "engage in introspective exercises to gain a deeper understanding of personal values, beliefs, and aspirations}",
+                "Engage in introspective exercises to gain a deeper understanding of personal values, beliefs, and aspirations}",
             },
             {
               content: "emotional intelligence",
               tooltip:
-                "develop emotional intelligence skills to better manage emotions and enhance interpersonal relationships",
+                "Develop emotional intelligence skills to better manage emotions and enhance interpersonal relationships",
             },
             {
               content: "mindfulness and self-care",
               tooltip:
-                "earn practices to cultivate mindfulness, reduce stress, and promote self-care",
+                "Earn practices to cultivate mindfulness, reduce stress, and promote self-care",
             },
             {
               content: "effective communication",
               tooltip:
-                "enhance communication skills to build strong connections and resolve conflicts",
+                "Enhance communication skills to build strong connections and resolve conflicts",
             },
             {
               content: "personal branding",
               tooltip:
-                "learn techniques to effectively represent oneself and create a positive personal brand",
+                "Learn techniques to effectively represent oneself and create a positive personal brand",
             },
             {
               content: "resilience and adaptability",
               tooltip:
-                "build resilience to overcome challenges and embrace change",
+                "Build resilience to overcome challenges and embrace change",
             },
             {
               content: "life vision and purpose",
               tooltip:
-                "dentify personal life vision and purpose to guide decision-making and prioritize goals",
+                "Dentify personal life vision and purpose to guide decision-making and prioritize goals",
             },
             {
               content: "growth mindset",
               tooltip:
-                "considering every mistake as learning and growth opportunity ",
+                "Considering every mistake as learning and growth opportunity ",
             },
           ],
         },
@@ -283,12 +287,12 @@ onMounted(() => {});
     <h1
       class="text-5xl mobile:text-3xl font-semibold font-montserrat italic1 py-4"
     >
-      Our Services for Building Your 'Rich-Life'
+      This is how we help you to build your 'Rich-Life'
     </h1>
-    <p class="text-back text-opacity-70">
+    <p class="text-back text-opacity-70 text-center">
       Business Unlimited serves as your growth advisor, progress umpire, and
-      self-development trainer. Explore our services and find the right fit for
-      you.
+      self-development trainer. <br />
+      Explore our services and find the right fit for you.
     </p>
   </section>
   <section v-for="program of programs" :id="program.title" class="p-page py-10">
@@ -312,6 +316,7 @@ onMounted(() => {});
         :content="pkg.content"
         :edge="pkg.edge"
         :type="pkg.type"
+        :book="pkg.book"
       />
     </div>
   </section>
@@ -324,11 +329,11 @@ onMounted(() => {});
     <p
       class="text-xl mobile:text-base mobile:py-8 italic1 opacity-75 text-back text-center pb-6"
     >
-      Business Unlimited believes that every entrepreneur/leader is the key to
+      <!-- Business Unlimited believes that every entrepreneur/leader is the key to
       building a better world and has the required potential to succeed. We
       connect with you as a whole person, and work with you to overcome your
       hurdles to unlock that potential so you and your business are truly
-      unlimited.
+      unlimited. -->
     </p>
     <p class="text-back mt-8 mb-4">What would you like to contact us for??</p>
     <div

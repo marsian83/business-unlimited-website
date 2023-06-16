@@ -91,7 +91,7 @@ const businessCollaborations = [
     <h3
       class="text-4xl font-semibold italic1 text-center text-primary font-montserrat"
     >
-      We can make your 'rich-life' possible!
+      We make your 'rich-life' possible!
     </h3>
     <div class="flex gap-x-8">
       <NuxtLink to="/services" class="btn-1 px-4 py-2 font-bold text-lg"
@@ -135,11 +135,12 @@ const businessCollaborations = [
       At Business Unlimited, we offer the following programs to support your
       growth:
       <br />
-      <b class="text-front"> 1. </b>
-      Money Growth Program – elevate your personal / business finances
       <br />
-      <b class="text-front"> 2. </b>
-      Self-Growth Program – making you, the ‘best’ version of yourself
+      <b class="text-front"> Money Growth Program </b>
+      – elevate your personal / business finances
+      <br />
+      <b class="text-front"> Self-Growth Program </b>
+      – making you, the ‘best’ version of yourself
     </p>
   </section>
   <!-- <section

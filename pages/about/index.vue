@@ -17,7 +17,7 @@
       <h1 class="text-5xl py-4 font-semibold italic1 font-montserrat">
         The Premise
       </h1>
-      <p class="text-front text-center text-lg">
+      <p class="text-front text-justify text-lg">
         In today's fast-paced business landscape, many individuals,
         entrepreneurs, and business leaders face the challenge of navigating
         their problems alone. They lack access to professional support,
@@ -46,7 +46,7 @@
         We are your growth advisors
       </h1>
       <p
-        class="text-transparent text-center bg-gradient-to-r from-back to-back bg-clip-text text-lg"
+        class="text-transparent text-justify bg-gradient-to-r from-back to-back bg-clip-text text-lg"
       >
         Business Unlimited is the brainchild of experienced business leaders and
         certified executive coaches who are passionate about fostering business
@@ -56,12 +56,12 @@
         collaboratively to overcome obstacles and unlock your unlimited
         potential, enabling both you and your business to thrive.
       </p>
-      <p
+      <!-- <p
         class="text-white text-center italic1 pt-8 opacity-80 text-lg font-thin tracking-wider"
       >
         > We steer leaders, organizational teams and entrepreneurs towards
         transformative results.
-      </p>
+      </p> -->
     </section>
     <section
       class="h-screen snap-start relative flex justify-center items-center flex-col p-page py-24"
@@ -77,11 +77,11 @@
       <h1 class="text-center font-montserrat text-5xl font-bold italic1">
         Our Ethos
       </h1>
-      <p class="text-center flex flex-col py-6 text-mute text-2xl">
+      <p class="text-justify flex flex-col py-6 text-mute text-2xl">
         We understand that one size doesn't fit all !!
       </p>
       <hr class="opacity-0 text-center" />
-      <p class="text-center text-lg">
+      <p class="text-justify text-lg">
         Therefore, we develop tailored solutions that address your specific
         challenges, steering you towards financial growth and personal
         development. By nurturing growth in both personal and professional
@@ -97,11 +97,11 @@
       class="widescreen:h-screen snap-start flex flex-col gap-y-6 justify-center items-center pt-24 bg-gradient-to-tl from-front to-foreground p-page"
     >
       <h1
-        class="text-back text-5xl font-semibold font-montserrat italic1 text-center"
+        class="text-back text-5xl font-semibold font-montserrat italic1 text-center mt-8"
       >
         MEET OUR FOUNDERS
       </h1>
-      <div class="flex flex-col mobile:flex-col-reverse gap-y-10">
+      <div class="flex flex-col mobile:flex-col-reverse gap-y-5">
         <div class="founder-card">
           <img src="/images/anamika.jpeg" alt="anamika" />
           <div class="founder-card-content">
@@ -146,12 +146,36 @@
         </div>
       </div>
 
-      <p class="text-white text-center mb-8 text-lg">
+      <p class="text-white text-center mb-8 text-lg pb-8">
         By harnessing our collective expertise and experiences, we at Business
         Unlimited are committed to driving your growth, empowering you to reach
         new heights of success in both your personal and professional
         endeavours.
       </p>
+    </section>
+    <section class="snap-start">
+      <section
+        id="meeting"
+        class="p-page py-10 bg-front flex flex-col items-center"
+      >
+        <NuxtLink
+          to="/services#book-meeting"
+          class="btn-1 px-6 py-2 text-3xl my-8 hover:border-front hover:text-front"
+          >Book now</NuxtLink
+        >
+        <p
+          class="font-montserrat text-2xl mobile:text-lg opacity-75 text-back text-center italic1"
+        >
+          Connect with us today, without any obligations.
+        </p>
+        <p class="text-xl italic1 opacity-75 text-back text-center py-1">
+          <!-- Business Unlimited believes that every entrepreneur/leader is the key to
+      building a better world and has the required potential to succeed. We
+      connect with you as a whole person, and work with you to overcome your
+      hurdles to unlock that potential so you and your business are truly
+      unlimited. -->
+        </p>
+      </section>
     </section>
   </main>
 </template>
