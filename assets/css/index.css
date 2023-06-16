@@ -43,3 +43,15 @@
 ::-webkit-scrollbar-thumb:hover {
   background: theme("colors.secondary");
 }
+
+@keyframes testimonials-anim {
+  from {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-80%);
+  }
+  tp {
+    transform: translateX(0%);
+  }
+}

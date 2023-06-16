@@ -175,8 +175,10 @@ const businessCollaborations = [
       >
         Testimonials
       </h1>
-      <div class="overflow-x-scroll overflow-y-clip testimonials-container">
-        <div class="flex m-4 flex-row w-[250vw] mobile:w-[250vh]">
+      <div class="overflow-x-hidden overflow-y-clip testimonials-container">
+        <div
+          class="flex m-4 flex-row w-[250vw] mobile:w-[250vh] animate-[testimonials-anim_150000ms_linear_infinite]"
+        >
           <div class="p-4 md:w-[50vw] w-full">
             <div
               class="h-full shadow-lg border border-front border-opacity-20 p-8 rounded flex flex-col justify-between"
